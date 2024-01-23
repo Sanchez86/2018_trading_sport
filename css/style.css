@@ -1,0 +1,938 @@
+
+@font-face {
+    font-family: "Calibri-BoldItalic";
+    src: url("../fonts/Calibri-BoldItalic.ttf"),
+        url('../fonts/Calibri-BoldItalic.eot') format('embedded-opentype'),
+        url('../fonts/Calibri-BoldItalic.otf') format('opentype'),
+        url('../fonts/Calibri-BoldItalic.svg') format('svg'),
+        url('../fonts/Calibri-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}ont-face {
+    font-family: "MYRIADPRO-REGULAR";
+    src: url("../fonts/MYRIADPRO-REGULAR.OTF") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "CALIBRIB";
+    src: url("../fonts/CALIBRIB.TTF"),
+        url('../fonts/CALIBRIB.eot') format('embedded-opentype'),
+        url('../fonts/CALIBRIB.otf') format('opentype'),
+        url('../fonts/CALIBRIB.svg') format('svg'),
+        url('../fonts/CALIBRIB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "CALIBRILI";
+    src: url("../fonts/CALIBRILI.TTF"),
+        url('../fonts/CALIBRILI.eot') format('embedded-opentype'),
+        url('../fonts/CALIBRILI.otf') format('opentype'),
+        url('../fonts/CALIBRILI.svg') format('svg'),
+        url('../fonts/CALIBRILI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "CALIBRI";
+    src: url("../fonts/CALIBRI.TTF"),
+        url('../fonts/CALIBRI.eot') format('embedded-opentype'),
+        url('../fonts/CALIBRI.otf') format('opentype'),
+        url('../fonts/CALIBRI.svg') format('svg'),
+        url('../fonts/CALIBRI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "CALIBRIL";
+    src: url("../fonts/CALIBRIL.TTF"),
+        url('../fonts/CALIBRIL.eot') format('embedded-opentype'),
+        url('../fonts/CALIBRIL.otf') format('opentype'),
+        url('../fonts/CALIBRIL.svg') format('svg'),
+        url('../fonts/CALIBRIL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("../fonts/Roboto-Black.TTF"),
+        url('../fonts/Roboto-Black.eot') format('embedded-opentype'),
+        url('../fonts/Roboto-Black.otf') format('opentype'),
+        url('../fonts/Roboto-Black.svg') format('svg'),
+        url('../fonts/Roboto-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{ 
+    background-color: #e5eaee;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+a:hover{text-decoration:none;}
+
+.left{float:left;}
+
+.right{float:right;}
+
+.clear{clear:both;}
+
+.outline{outline:1px solid #cc0000;} 
+
+.wrap{
+    width: 100%;
+	max-width: 1080px;
+    height: 100%;
+	max-height:1920px;
+	margin: 0 auto;
+}
+
+
+/*не выдел¤етс¤ текст*/
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently*/
+}
+
+
+/*  button up" */
+
+  #top {
+    z-index:100;
+    bottom: 0;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: 25px;
+    width:48px;
+    height:33px;
+    background-color:#4cabd7;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+	text-align:center;
+	transition: height 1s;
+}
+#top div{
+	margin-top:54x;
+}
+#top .up{
+    padding-top: 10px;
+    display: block;
+    font-family: Arial;
+    font-size: 15px;
+    color: #FFF;
+}
+#top i {
+		margin-top:10px;
+        color:#fff;
+        font-size:12px;
+}
+#top:hover .minus1{
+	border-bottom:1px solid #fff;
+	transition: border-color 2s
+}
+#top:hover .minus2{
+	border-bottom:1px solid #fff;
+	transition: border-color 3s
+}
+#top:hover .minus3{
+	border-bottom:1px solid #fff;
+	transition: border-color 4s
+}
+.minus{
+	display: block;
+	color: #FFF;
+	padding:0!important;
+	height: 2px;
+	margin:0!important;
+	border-bottom:1px solid #000;
+	transition: border-color 1s
+}
+/* end button up" */
+/*stoks_wraper*/
+.stoks_wraper{
+	background-color: #fff;
+	width: 100%;
+	max-width: 938px;
+	margin: 0 auto;
+    border: 1px solid #d8dde1;
+    border-radius: 10px;
+    margin-top: 46px;
+    padding-top: 27px;
+    padding-left: 34px;
+    padding-right: 26px;
+}
+.stoks_h{
+    color:#4d5a64;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "CALIBRIL";
+    text-align: center;
+    margin-bottom: 28px;
+}
+.stoks_wraper tr{
+    border-top:1px solid #c6cdd2;
+}
+.stoks_wraper tr td{
+    vertical-align: top;
+}
+.stoks_wraper table{
+    width: 100%;
+}
+.table_logo{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    width: 174px;
+    text-align: center;
+    position: relative;
+}
+
+.number{
+    position: absolute;
+    font-family: "CALIBRIB";
+	font-size: 36px;
+    color: #818b93;
+    display: inline-block;
+    text-align: center;
+    background-color: #e5eaee;
+    width:53px;
+    height: 53px;
+    border-radius: 50px;
+    line-height: 50px;
+    top: 58px;
+    left: -61px;
+}
+.number_top{
+    background-color: #4cabd7;
+    color: #ffffff;
+}
+.table_name h3{
+    color:#4d5a64;
+    font-family: "CALIBRIB";
+	font-size: 44px;
+    margin-top: 36px;
+    margin-bottom: 9px;
+    text-transform: uppercase;
+}
+.table_name p{
+    color:#a0aeba;
+    font-size: 44px;
+    font-family: "CALIBRIL";
+}
+.table_count h4{
+    color:#4d5a64;
+    font-size: 44px;
+    font-family: "CALIBRIL";
+    margin-top: 36px;
+    margin-bottom: 9px;
+}
+.table_count p{
+    color:#15c235;
+    font-size: 44px;
+    font-family: "CALIBRIB";
+}
+.table_btn input{
+    width: 195px;
+    height: 110px;
+    border: 4px solid #4cabd7;
+    border-radius: 10px;
+    background-color: #ffffff;
+    float: right;
+    margin-right: 5px;
+    margin-top: 31px;
+    color:#339dda;
+    font-size: 44px;
+    font-family: "CALIBRI";
+    text-transform: uppercase;
+    transition: all 1s;
+    cursor: pointer;
+}
+.table_btn input:hover{
+    background-color: #4cabd7;
+    color: #fff;
+    transition: all 0.5s;
+}
+.table_btn input.active{
+    background-color: #4cabd7;
+    color: #fff;
+    transition: all 0.5s;
+}
+/*end stoks_wraper */
+
+/*=============== Page index2.html ===============*/
+/*stoks_wraper2*/
+.stoks2_h1{
+    color: #4d5a64;
+    font-size: 60px;
+    font-family: "CALIBRIB";
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 4px;
+    letter-spacing: -1.2px;
+}
+.stoks2_h2{
+    color: #4d5a64;
+    font-size: 30px;
+    font-family: "CALIBRIL";
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 27px;
+    letter-spacing: -0.6px;
+}
+.stoks_wraper2 tr {
+    border-bottom: 1px solid #c6cdd2;
+    border-top: 0;
+}
+
+.table_icons span{
+    color:#8f99a0;
+    font-size: 22px;
+    font-family: "CALIBRIL"; 
+}
+.table_icon{
+    text-align: center;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 36px;
+    float: right;
+}
+.table_people{
+    width: 7.59vw;
+    max-width: 94px;
+    background-image: url('../images/table_people.png');
+}
+.stoks_wraper2 .table_views{
+    width: 11.5vw;
+    max-width: 140px;
+    background-image: url('../images/table_views.png');
+}
+.stoks_wraper2 .table_likes{
+    width: 7.1vw;
+    max-width: 88px;
+    background-image: url('../images/table_likes.png');
+}
+.stoks_wraper2 .table_icons{
+    padding-top: 63px;
+}
+.stoks_wraper2 .table_count h4{
+    margin-top: 42px;
+    margin-bottom: 0;
+}
+.stoks_wraper2 .table_logo{
+    padding-top: 19px;
+    padding-bottom: 16px;
+    padding-left: 67px;
+}
+.stoks_wraper2 .table_logo img{
+    border: 6px solid #e5eaed;
+    border-radius: 100px;
+    background-color: #e5eaed;
+    margin-right: 14px;
+    z-index: 1;
+    position: relative;
+}
+.stoks_wraper2{
+    padding-top: 0;
+    position: relative;
+}
+.stoks_wraper2 .number_top {
+    font-size: 44px;
+    width: 100px;
+    height: 64px;
+    text-align: left;
+    padding-left: 36px;
+    line-height: 58px;
+    z-index: 0;
+    position: absolute;
+    top: 51px;
+    left: -4px;
+}
+.stoks_wraper2 .number2{
+    font-family: "CALIBRIL";
+    color:#4d5a64;
+    font-size: 44px;
+    position: absolute;
+    top: 59px;
+    left: 14px;
+}
+.stoks_wraper2 tr:last-child{
+    border: 0;
+}
+
+.line{
+    background-image: url(../images/line.png);
+    width: calc(100% - 10px);
+    height: 58px;
+    position: absolute;
+    bottom: -58px;
+    left: 6px;
+    background-size: contain;
+}
+.bottom_block{
+    background-color: #4cabd7;
+    margin-top: 56px;
+    color: #fff;
+}
+.bottom_block .number2,
+.bottom_block .table_count h4,
+.bottom_block .table_count p,
+.bottom_block .table_icons span{
+    color:#ebf5fb;
+}
+.bottom_block .number2{
+    font-family: "CALIBRIB";
+    left: -2px;
+}
+.bottom_block .table_people{
+    background-image: url('../images/table_people_w.png');
+}
+.bottom_block .table_views{
+    background-image: url('../images/table_views_w.png');
+}
+.bottom_block .table_likes{
+    background-image: url('../images/table_likes_w.png');
+}
+/*end stoks_wraper2*/
+/*=============== End Page index2.html ===============*/
+
+/*=============== Page index3.html ===log_in_wraper2============*/
+.log_in_wraper{
+    background-image: url('../images/login_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00adda;
+    padding-top: 770px;
+    padding-bottom: 268px;
+}
+.log_in_wraper h2{
+    font-size: 150px;
+    color: #fff;
+    font-family: "Roboto-Black";
+    text-align: center;
+    letter-spacing: -13px;
+}
+.log_in_wraper h3{
+    color:#000000;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 48px;
+    font-family: "CALIBRIL";
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 31px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 180px;
+}
+.login_inputs {
+    width: 100%;
+    max-width: 580px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+.login_inputs input {
+        width: 100%;
+    max-width: 444px;
+    margin-bottom: 31px;
+    height: 108px;
+    border: 0;
+    border-radius: 10px;
+    color: #000;
+    font-size: 44px;
+    font-family: "CALIBRI";
+    padding-left: 116px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+.facebook{
+    background-image: url('../images/facebook.png');
+    background-repeat: no-repeat;
+    background-position: 40px center;
+}
+.google{
+    background-image: url('../images/google.png');
+    background-repeat: no-repeat;
+    background-position: 31px center;
+}
+ 
+.login_inputs input::-webkit-input-placeholder {color:#4cabd7;  font-family: "CALIBRI";}
+.login_inputs input::-moz-placeholder          {color:#4cabd7;}/* Firefox 19+ */
+.login_inputs input:-moz-placeholder           {color:#4cabd7;}/* Firefox 18- */
+.login_inputs input:-ms-input-placeholder      {color:#4cabd7;}  
+/*=============== End Page index3.html ===============*/
+/*=============== Page index4.html and block pie ===============*/
+.my-custom-class-one{
+    fill: #dd3f2f;
+    background-color: #dd3f2f;
+}
+.my-custom-class-two{
+    fill: #c37024;
+    background-color: #c37024;
+}
+.my-custom-class-three{
+    fill: #4e4d98;
+    background-color: #4e4d98;
+}
+.my-custom-class-four{
+    fill: #000000;
+    background-color: #000000;
+}
+.ct-chart-donut .ct-label, .ct-chart-pie .ct-label{
+    fill:#fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "CALIBRI";
+}
+
+.count{
+    width:100%;
+    max-width: 736px;
+    margin: 0 auto;
+    margin-top: 52px;
+    margin-bottom: 81px;
+    background-image: url('../images/imgArrowUp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.totalSum span{
+    color: #4d5a64;
+    font-size: 60px;
+    font-family: "CALIBRIB";
+}
+.totalSum p{
+    color: #4d5a64;
+    font-size: 30px;
+    font-family: "CALIBRIL";
+    text-transform: uppercase;
+    margin-top: 7px;
+}
+.changePercent p{
+    font-size: 60px;
+    font-family: "CALIBRIB";
+}
+.changePercent{
+    margin-right: 97px;
+}
+.change{
+    color: #4d5a64;
+    font-size: 30px;
+    font-family: "CALIBRIL";
+    text-transform: uppercase;
+    margin-top: 7px;
+    text-align: center;
+}
+#pie{
+    margin-bottom: 71px;
+}
+.star {
+    background-image: url(../images/star.png);
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+    padding-left: 8px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.percent{
+        top: 192px;
+    }
+    .return{
+        top: 259px;
+    }
+    .subRightBar p, .subLeftBar p{
+        font-size: 20px;
+    }
+    .subLeftBar{
+        float: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+    .subRightBar{
+        float: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+    .chart{
+        text-align: center;
+        float: none;
+    }
+    .chart canvas{
+        margin-top: 30px;
+    }
+/*=============== end Page index4.html and index5.html and block pie ===============*/
+
+/*=============== Page index6.html===============*/
+.buy_sell_wraper h2{
+    color: #4d5a64;
+    font-size: 60px;
+    font-family: "CALIBRIL";
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 46px;
+    margin-bottom: 22px;
+}
+.buy_sell_wraper h2 span{
+    color:#339dda;
+    font-family: "CALIBRILI";
+}
+.buy_sell_wraper{
+    width: 100%;
+    max-width: 614px;
+    margin: 0 auto;
+    text-align: center;
+}
+.blockLogo{
+    position: relative;
+}
+.blockLogo img{
+    width: 162px;
+    position: relative;
+    z-index: 1;
+}
+.blockLogoImg{
+    background-image: url('../images/blockLogoImg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 112px;
+    height: 112px;
+    position: absolute;
+    top:37px;
+    left:-45px;
+    z-index: 1;
+}
+.blockLogoLine{
+    position: absolute;
+    top:46%;
+    left: 0;
+    height: 5px;
+    width:50%;
+    background-color: #f7f9fa;
+}
+.blockPie{
+    max-width: 924px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 66px;
+    padding-top: 40px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 38px;
+    border: 1px solid #d8dde1;
+}
+.totalSum span i{
+    color: #339dda;
+}
+.blockPie .totalSum{
+    text-align: center;
+}
+.sell{
+    display: block;
+    width: 100%;
+    height: 110px;
+    background-color: #4cabd7;
+    color: #ffffff;
+    font-size: 44px;
+    font-family: "CALIBRI";
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.back{
+    color:#339dda;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 44px;
+    font-family: "CALIBRI";
+    margin-top: 78px;
+    margin-bottom: 73px;
+}
+
+/*circle*/
+.blockAnimaton{
+    position: relative;
+}
+.chart{
+    /*width: 526px;*/
+    margin: 0 auto;
+    margin-top: 87px;
+    margin-bottom: 124px;
+    position: relative;
+    float: left;
+}
+.percent{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 232px;
+    color: #339dda;
+    font-size: 60px;
+    font-family: "CALIBRIB";
+}
+.return{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 299px;
+    color: #4d5a64;
+    font-size: 30px;
+    font-family: "CALIBRIL";
+    text-transform: uppercase;
+}
+/*end circle*/
+.rightBar,
+.leftBar{
+    height: 526px;
+    width: 63px;
+    background-color: #ebf5fb;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.rightBarInner{
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #339dda;
+    transition: all 1s;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 17px;
+}
+.rightBarInner,
+.leftBarInner,
+.top{
+    color: #fff;
+    font-size: 30px;
+    font-family: "CALIBRIB";
+}
+.subLeftBar{
+    margin-right: 32px;
+}
+.subRightBar,
+.subLeftBar{
+    width: 160px;
+    text-align: center;
+    margin-top: 95px;
+    position: relative;
+}
+.buy{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 218px;
+}
+.subRightBar p,
+.subLeftBar p{
+    color:#4d5a64;
+    font-size: 24px;
+    font-family: "CALIBRI";
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.leftBarInner{
+    width: 100%;
+    height: 0;
+    background-color: red;
+    transition: all 1s;
+    position: absolute;
+    top: 263px;
+}
+.leftBarInner span{
+    position: absolute;
+    bottom:0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.leftBarInner:before {
+    border-top: 19px solid red;
+    border-left: 32px solid transparent;
+    border-right: 32px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    bottom: -18px;
+    width: 0;
+}
+.top{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 263px;
+}
+.topInner{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: #339dda;
+    transition: all 1s;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 17px;
+}
+.subLeftBar.active .buy{
+    top: 255px;
+}
+.chart canvas{
+  width: 50%!important;
+  height: 50%!important;
+}     
+/*=============== end Page index6.html===============*/
+/*=============== Page index7.html===============*/
+.wrap_schedule{
+    max-width: 998px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.sub_submit{
+    float: left;
+    width: 50%;
+}
+.submitButtons{
+   
+}
+.submit_buy,
+.submit_sell{
+    width: 100%;
+    height: 110px;
+    background-color: #4cabd7;
+    color: #ffffff;
+    font-size: 44px;
+    font-family: "CALIBRI";
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    max-width: 480px;
+    display: inline-block;
+    transition: background-color 0.5s; 
+}
+.submit_buy:hover,
+.submit_sell:hover{
+        background-color: #0b93d2;
+        transition: background-color 0.5s; 
+}
+.submit_sell{
+    float: right;
+}
+.wrap_schedule .back{
+    margin-top: 67px;
+}
+.wrap_schedule .totalSum{
+    width: 30%;
+    text-align: center;
+}
+.change{
+    padding-left: 40px;
+}
+.sub_totalSum{
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+#tabs img{
+    width: 100%;
+}
+#tabs{
+    background-color: #fff;
+    box-shadow: 0px 1px 1px 1px rgba(6, 6, 6, 0.13);
+}
+.ui-tabs .ui-tabs-nav{
+    background-color: #fff;
+    border: 0;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+    color: #999999;
+    outline: 0;
+    padding:0.2em 0.7em;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active{
+    border-radius: 20px;
+    background-color: #4cabd7;
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    font-family: "MYRIADPRO-REGULAR";
+    transition: all 0.5s;
+}
+.ui-tabs-active a{
+    color: #fff!important;
+    outline: 0;
+    font-family: "MYRIADPRO-REGULAR";
+    transition: all 0.5s;
+}
+.ui-tabs .ui-tabs-nav li{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    font-family: "MYRIADPRO-REGULAR";
+    background-color: #fff;
+}
+.ui-widget.ui-widget-content{
+    border: 0;
+    border-radius: 10px;
+}
+.ui-tabs .ui-tabs-nav{
+    margin-top: 34px;
+    margin-left: 28px;
+    
+}
+.last5games{
+    background-color: #fff;
+    box-shadow: 0px 1px 1px 1px rgba(6, 6, 6, 0.13);
+    border-radius: 10px;
+    padding: 29px 33px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.last5games span{
+    color:#4d5a64;
+    font-size: 30px;
+    font-family: "CALIBRIB";
+    display: inline-block;
+    border-radius: 50px;
+    border: 3px solid #6e7b86;
+    width: 62px;
+    height: 62px;
+    text-align: center;
+    line-height: 60px;
+    margin-right: 23px;
+}
+.last_games{
+    color:#b2b6ba;
+    font-size:44px;
+    font-family: "CALIBRIL";
+    text-transform: uppercase;
+    letter-spacing: -0.8px;
+    padding-right: 8px;
+    padding-top: 11px;
+}
+/*=============== end Page index7.html===============*/

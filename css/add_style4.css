@@ -1,0 +1,230 @@
+﻿.monthlyPerformance{
+    padding-bottom:0;
+}
+.monthly {
+    color: #4cabd7;
+    font-size: 30px;
+    font-family: "CALIBRIB";
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+.monthly span {
+    color: #4d5a64;
+    font-family: "CALIBRIL";
+}
+.sub_carousel_grafik2 {
+    padding-top: 10px;
+    padding-bottom: 17px;
+}
+.sub_grafik2 {
+    border-top: 1px solid #c6cdd2;
+    margin-left: 33px;
+    margin-right: 33px;
+    padding-bottom: 30px;
+}
+.grafik2Left {
+    float: left;
+    width: 70%;
+}
+.grafik2Right {
+    float: right;
+}
+.grafik2Left img {
+    width: 100%;
+    max-width: 629px;
+}
+.grafik2Right {
+    color: #15c235;
+    background-color: #e7f9ea;
+    text-align: center;
+    width: 30%;
+    max-width: 273px;
+    padding-top: 14px;
+    padding-bottom: 16px;
+    margin-top: 30px;
+}
+.grafik2Right__profit {
+    font-size: 30px;
+    font-family: "CALIBRIB";
+    line-height:60px;
+}
+.grafik2Right__percent {
+    font-size: 99px;
+    font-family: "CALIBRIB";
+    line-height: 99px;
+}
+.grafik2Right__money {
+    font-size: 48px;
+    font-family: "CALIBRI";
+    line-height: 60px;
+}
+.distribution {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+.wrap4 {
+    margin-top: 360px;
+}
+.monthlyPerformance .stoks_wraper {
+    max-width: 1000px;
+}
+.wrap3content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media only screen and (min-width: 1080px){
+    .wrap4 {
+        margin-top: 130px;
+    }
+    .monthly {
+        font-size: 16px;
+    }
+    #carousel-example-generic2 .carousel-control-left, #carousel-example-generic2 .carousel-control-right {
+        width: 15px;
+    }
+    .grafik2Left img {
+        width: 60%;
+        margin-top: 20px;
+    }
+    .grafik2Right__profit,
+    .grafik2Right__money {
+        font-size: 16px;
+    }
+    .grafik2Right__percent {
+        font-size: 26px;
+        line-height: 19px;
+    }
+    .stoks_h {
+        font-size: 16px;
+    }
+    .number {
+        width: 22px;
+        height: 22px;
+        left: -45px;
+        top: 21px;
+        font-size: 14px;
+    }
+    .table_logo {
+        width: 55px;
+        padding-top: 6px;
+        padding-bottom: 0;
+    }
+    .table_logo img {
+        width: 80%;
+    }
+    .table_name h3,
+    .table_name p,
+    .table_count h4,
+    .table_count p {
+        font-size: 14px;
+    }
+    .star {
+        width: 15px;
+        height: 15px;
+    }
+    .table_btn input {
+        border-width: 2px;
+        font-size: 14px;
+        width: 59px;
+        height: 40px;
+        margin-top: 11px;
+        border-radius: 3px;
+    }
+    .table_name h3,
+    .table_count h4 {
+        margin-top: 13px;
+        margin-bottom: 2px;
+        margin-left: 6px;
+    }
+    .table_name p {
+        margin-left: 6px;
+    }
+    .wrap3_block,
+    .stoks_wraper {
+        margin-top: 28px;
+    }
+    .table_btn {
+        width: 9%;
+    }
+    .table_count{
+        text-align:right;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .grafik2Right__profit {
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+    .grafik2Right__percent {
+        font-size: 7vw;
+        line-height: 7vw;
+    }
+    .grafik2Right__money {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+    .sub_grafik2 {
+        margin-left: 5px;
+        margin-right: 5px;
+    } 
+    .grafik2Right {
+        margin-top: 3vw;
+    }
+    .monthly {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .wrap4 {
+        margin-top: 310px;
+    }
+} 
+@media only screen and (max-width: 768px) {
+    .wrap4 {
+        margin-top: 250px;
+    }
+    .wrap4 .stoks_wraper {
+        margin-top: 26px;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .wrap4 {
+        margin-top: 230px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .wrap4 {
+        margin-top: 210px;
+    }   
+}
+@media only screen and (max-width: 530px){
+    .wrap4 {
+        margin-top: 186px;
+    }
+    .wrap4 .stoks_wraper {
+        margin-top: 19px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .wrap4 {
+        margin-top: 171px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .wrap4 {
+        margin-top: 162px;
+    }
+    .monthly {
+        font-size: 5vw;
+        margin-top: 15px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .wrap4 {
+        margin-top: 155px;
+    }
+}

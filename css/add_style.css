@@ -1,0 +1,431 @@
+.wrap2{
+	max-height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.wrap_rules{
+	background-color: #e5eaee;
+	padding-left: 68px;
+	padding-right: 66px;
+    overflow: auto;
+	width: inherit !important;
+    outline: 0;
+}
+.wrap_rules h2{
+	color: #4d5a64;
+	font-size: 60px;
+	font-family: "CALIBRIB";
+	text-transform: uppercase;
+	text-align: center;
+    margin-top: 72px;
+    margin-bottom: 66px;
+}
+.wrap_rules p{
+	color: #4d5a64;
+	font-size: 36px;
+	font-family: "CALIBRI";
+    line-height: 42px;
+    margin-bottom: 43px;
+}
+.sub_btn{
+	text-align: center;
+	margin-top: 77px;
+    margin-bottom: 76px;
+}
+.wrap_rules a{
+    color: #4cabd7;
+    font-size: 40px;
+    font-family: "CALIBRI";
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border: 4px solid #4cabd7;
+    border-radius: 8px;
+    background-color: #fff;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    width: 100%;
+    max-width: 497px;
+    background-image: url(../images/btn_like.png);
+    background-repeat: no-repeat;
+    background-position: 33px center;
+    -webkit-transition: border-radius 0.5s;
+    transition: border-radius 0.5s;
+}
+.wrap_rules a:hover{
+	border-radius: 18px;
+}
+/*scroll style*/
+
+
+.wrap_rules::-webkit-scrollbar-track {
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.wrap_rules::-webkit-scrollbar-thumb {
+	background-color:#4cabd7;
+	border-radius:10px;
+}
+
+:.wrap_rules:-webkit-scrollbar-thumb:hover{
+    background-color: rgba(76, 171, 215, 0.7);
+}
+
+.wrap_rules::-webkit-resizer{
+	background-image:url('');
+	background-repeat:no-repeat;
+	width:21px;
+	height:0px;
+	margin-right:10px;
+}
+
+.wrap_rules::-webkit-scrollbar{
+	width: 21px;
+}
+/*end scroll style*/
+/*left menue*/
+.btn_for_menue{
+    margin-top: 58px;
+    margin-right: 9px;
+    width: 50px;
+    float: left;
+    cursor: pointer;
+}
+.btn_for_menue span{
+	display: block;
+	width: 50px;
+	height: 8px;
+	background-color: #fff;
+	border-radius: 2px;
+	margin-bottom: 8px;
+}
+.sub_leftMenue{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    cursor: pointer;
+	z-index: 10;
+}
+.leftMenue{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 706px;
+    display: none;
+    /*transition: left 1s;*/
+    cursor: default;
+	z-index: 100;
+}
+.leftMenueHeader{
+	background-color: #4cabd7;
+    padding-top: 54px;
+    padding-left: 56px;
+    padding-bottom: 79px;
+    padding-right: 68px;
+}
+.gear{
+    background-image: url(../images/gear.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 57px;
+    height: 58px;
+    float: right;
+    margin-top: 65px;
+}
+.leftMenue .proTrader h2{
+	color: #ffffff;
+	font-size: 44px;
+	font-family: "CALIBRIB";
+}
+.leftMenue .proTrader p{
+    color: rgba(255, 255, 255, 0.66);
+	font-size: 30px;
+	font-family: "CALIBRIL";
+}
+.leftMenueList{
+	background-color: #fff;
+    padding-top: 3px;
+    padding-left: 72px;
+    padding-right: 22px;
+}
+.leftMenueList li > a{
+	color: #4d5a64;
+	font-size: 44px;
+	font-family: "CALIBRI";
+    text-transform: uppercase;
+    text-decoration: none;
+     line-height: 139px;
+}
+.leftMenueList select{
+    float: right;
+    color: rgba(77, 90, 100, 0.3);
+    font-size: 44px;
+    font-family: "CALIBRI";
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../images/arrow-down.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+    border: 0;
+    width: 100%;
+    max-width: 119px;
+    outline: 0;
+    margin-top: 42px;
+}
+/*end left menue*/
+@media only screen and (max-width: 1023px){
+	.gear{
+	    width: 45px;
+    	height: 46px;
+    	margin-top: 45px;
+	}
+	.leftMenue{
+	    max-width: 69vw;
+	}
+	.leftMenueList li > a{
+	    font-size: 38px;
+        line-height: 100px;
+	}
+	.leftMenueHeader{
+		padding-left: 3vw;
+		padding-right: 3vw;
+	}
+	.leftMenueList{
+    	padding-top: 24px;
+	    padding-bottom: 24px;
+	    padding-left: 6vw;
+	    padding-right: 1vw;
+	}
+	.leftMenueList select{
+	    font-size: 37px;
+	    margin-top: 22px;
+	    max-width: 100px;
+        background-size: 22%;
+	}
+	.wrap_rules h2{
+		font-size: 50px;
+	    margin-top: 62px;
+	    margin-bottom: 56px;
+	}
+	.wrap_rules p{
+	    font-size: 31px;
+	    line-height: 37px;
+	    margin-bottom: 33px;
+	}
+	.wrap_rules a{
+		font-size: 35px;
+		padding-top: 26px;
+		padding-bottom: 26px;
+		max-width: 477px;
+	}
+}
+@media only screen and (max-width: 920px){
+	.leftMenue .proTrader h2{
+		font-size: 34px;
+	}
+	.leftMenue .proTrader p {
+	    font-size: 25px;
+	}
+	.leftMenueList li > a {
+	    font-size: 28px;
+	    line-height: 68px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.leftMenueList li > a {
+	    font-size: 24px;
+	    line-height: 52px;
+	}
+	.leftMenueList select {
+	    font-size: 28px;
+	    margin-top: 7px;
+	    max-width: 90px;
+	    background-size: 22%;
+	}
+	.btn_for_menue {
+	    margin-top: 51px;
+	    margin-right: 5px;
+	    width: 45px;
+	}
+	.btn_for_menue span{
+		width: 45px;
+		height: 6px;
+		margin-bottom: 7px;
+	}
+	.wrap_rules{
+	    padding-left: 40px;
+    	padding-right: 40px;
+	}
+	.wrap_rules h2{
+		font-size: 42px;
+		margin-top: 42px;
+	    margin-bottom: 36px;
+	}
+	.wrap_rules p{
+	    font-size: 26px;
+	    line-height: 31px;
+	    margin-bottom: 21px;
+	}
+	.wrap_rules a{
+	    font-size: 28px;
+	    padding-top: 26px;
+	    padding-bottom: 26px;
+	    max-width: 377px;
+	    background-size: 10%;
+	    background-position: 27px center;
+	}
+	.wrap_rules::-webkit-resizer{
+		background-image:url('');
+		background-repeat:no-repeat;
+		width:15px;
+		height:0px
+	}
+
+	.wrap_rules::-webkit-scrollbar{
+		width: 15px;
+	}
+}
+@media only screen and (max-width: 600px){
+	.leftMenueHeader{
+	    padding-top: 34px;
+	    padding-bottom: 60px;
+	}
+	.gear {
+	    width: 37px;
+	    margin-top: 38px;
+	}
+	.leftMenue .proTrader h2{
+		font-size: 25px;
+	}
+	.leftMenue .proTrader p {
+	    font-size: 21px;
+	}
+	.leftMenueList li > a {
+	    font-size: 20px;
+	    line-height: 42px;
+	}
+	.leftMenueList select {
+	    font-size: 22px;
+	    margin-top: 7px;
+	    max-width: 80px;
+	}
+	.btn_for_menue {
+	    margin-top: 41px;
+	    margin-right: 4px;
+	    width: 40px;
+	}
+	.btn_for_menue span{
+		width: 40px;
+		height: 5px;
+		margin-bottom: 6px;
+	}
+}
+@media only screen and (max-width: 500px){
+	.leftMenueHeader .photo{
+	    margin-left: 0;
+	}
+	.leftMenueList select {
+	    font-size: 20px;
+	    margin-top: 7px;
+	    max-width: 60px;
+	    background-position: calc(100% - 5px) center;
+	    background-size: 26%;
+	}
+	.leftMenueList{
+		padding-left: 5vw;
+	}
+	.leftMenueList li > a {
+	    font-size: 18px;
+	    line-height: 40px;
+	}
+	.wrap_rules {
+	    padding-left: 30px;
+	    padding-right: 30px;
+	}
+	.wrap_rules h2 {
+	    font-size: 36px;
+	    margin-top: 32px;
+	    margin-bottom: 22px;
+	}
+	.wrap_rules p {
+	    font-size: 22px;
+	    line-height: 26px;
+	    margin-bottom: 19px;
+	}
+	.wrap_rules a {
+	    font-size: 24px;
+	    padding-top: 22px;
+	    padding-bottom: 22px;
+	    max-width: 277px;
+	    background-size: 8%;
+	    background-position: 15px center;
+	}
+	.sub_btn {
+	    margin-top: 57px;
+	    margin-bottom: 56px;
+	}
+}
+@media only screen and (max-width: 414px){
+	.leftMenueList select{
+	    font-size: 18px;
+        max-width: 50px;
+	}
+	.leftMenueList li > a {
+	    font-size: 16px;
+	    line-height: 37px;
+	}
+	.leftMenueHeader {
+	    padding-top: 20px;
+	    padding-bottom: 40px;
+	}
+	.gear{
+	    width: 30px;
+	}
+	.leftMenue .proTrader h2{
+		font-size: 18px;
+	}
+	.leftMenue .proTrader p {
+	    font-size: 17px;
+	}
+	.btn_for_menue{
+		margin-top: 32px;
+	}
+	.btn_for_menue span{
+	    width: 36px;
+	}
+	.wrap_rules {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.wrap_rules h2 {
+		font-size: 30px;
+	    margin-top: 28px;
+	    margin-bottom: 20px;
+	}
+	.wrap_rules p {
+	    font-size: 18px;
+	    line-height: 23px;
+	    margin-bottom: 13px;
+	}
+	.sub_btn {
+	    margin-top: 46px;
+	    margin-bottom: 46px;
+	}
+	.wrap_rules a {
+	    font-size: 22px;
+	    padding-top: 18px;
+	    padding-bottom: 18px;
+	    max-width: 247px;
+	    background-size: 7%;
+	    background-position: 14px center;
+	    border-width: 3px;
+	}
+}

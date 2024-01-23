@@ -1,0 +1,77 @@
+@media only screen and (min-width: 1080px) {
+    /*header*/
+    header {
+        height: 62px;
+    }
+
+    .btn_for_menue {
+        margin-top: 20px;
+        margin-right: 9px;
+        width: 20px;
+        float: left;
+        cursor: pointer;
+    }
+
+    .btn_for_menue span {
+        display: block;
+        width: 20px;
+        height: 4px;
+        background-color: #fff;
+        border-radius: 1px;
+        margin-bottom: 4px;
+    }
+
+    header .photo {
+        margin: 0;
+        margin-top: 9px;
+        width: 46px;
+        height: 46px;
+        float: left;
+    }
+
+    header .photo img {
+        border-radius: 38px;
+        border: 3px solid #f7f9fa;
+        width: 38px !important;
+        height: 38px !important;
+    }
+
+    header .portfolioWorth {
+        margin: 0;
+        position: absolute;
+        top: 17px;
+        left: 25%;
+        width: 50%;
+        text-align: center;
+    }
+
+    header h2 {
+        font-size: 16px;
+        letter-spacing: 0.4px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    header .balance {
+        margin-right: 15px;
+        margin-top: 17px;
+        text-align: right;
+    }
+
+        header .balance h2, header .balance p {
+            padding-right: 0;
+        }
+
+    .menu ul li a,
+    .menu ul li a:hover {
+        font-size: 14px;
+        line-height: 36px;
+        padding: 0;
+        padding-top: 4px;
+        width: 100%;
+        border-width: 2px;
+    }
+}
+/* and header*/

@@ -1,0 +1,1876 @@
+.h1, .h2, .h3, h1, h2, h3{
+	margin: 0;
+}
+.clear{
+	display: block;
+}
+ol, ul{
+	margin: 0;
+}
+.header{
+	position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1080px;
+    z-index: 10;
+}
+.wrap3 {
+    margin-top: 371px;
+}
+
+.add_menu{
+	background-color: #e5eaee;
+	padding: 8px;
+	box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.2);
+    transition:all 0.5s;
+}
+.add_menu.active {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.add_menu h2 {
+    float: left;
+    color: #4d5a64;
+    font-size: 36px;
+    font-family: "CALIBRIB";
+    text-transform: uppercase;
+    margin-top: 11px;
+    margin-left: 34px;
+}
+.add_menu ul{
+	float: right;
+}
+.add_menu ul li{
+	display: inline-block;
+    vertical-align: middle;
+}
+.add_menu_black{
+	color: #4d5a64;
+	font-size: 36px;
+    font-family: "CALIBRI";
+}
+.add_menu_green{
+	color: #3ac519;
+	font-size: 36px;
+    font-family: "CALIBRIB";
+    margin-left: 19px;
+    margin-right: 23px;
+}
+.add_menu ul li a{
+	display: inline-block;
+	background-image: url('../images/din_din.png');
+	background-repeat: no-repeat;
+    background-size: contain;
+	width: 67px;
+	height: 60px;
+}
+.wrap3content{
+	padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    padding-bottom: 225px;
+}
+.wrap3_block{
+	background-color: #ffffff;
+	margin-top: 48px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sub_h3{
+	text-align: center;
+}
+.wrap3_block h3{
+	color: #4cabd7;
+	font-size: 30px;
+	font-family: "CALIBRIB";
+	text-align: center;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 56px;
+}
+.wrap3_block h3:after{
+    content: "";
+    border-bottom: 2px solid #4cabd7;
+    background-color: #333;
+    display: block;
+    width: calc(100% + 130px);
+    text-align: center;
+    position: absolute;
+    left: -65px;
+    right: 0;
+    bottom: -26px;
+
+}
+/*buttons group*/
+.wrap3_buttons_group{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 39px;
+}
+.bt_color {
+	border-radius: 6px;
+	border-width: 3px;
+	border-style: solid;
+	font-size: 44px;
+    line-height: 79px;
+    font-family: "CALIBRI";
+    width: 28vw;
+    max-width: 267px;
+    padding-left: 53px;
+    letter-spacing: -0.9px;
+    -webkit-transition: border-radius 0.5s;
+    transition:border-radius 0.5s;
+}
+.bt_color:hover{
+	border-radius: 12px;
+}
+.bt_green{
+	border-color: #39b54a;
+	color: #39b54a;
+	background-image: url('../images/bt_green.png');
+	background-repeat: no-repeat;
+	background-position: center right 11px;
+}
+.bt_black{
+	border-color: #4d5a64;
+	color:#4d5a64;
+}
+.bt_red{
+	border-color: #ff0000;
+	color:#ff0000;
+	background-image: url('../images/bt_red.png');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.bt_green:hover{color: #39b54a;}
+.bt_black:hover{color: #4d5a64;}
+.bt_red:hover{color: #ff0000;}
+/*buttons group*/
+
+.wrap3_block p{
+    color: #6a7883;
+    font-size: 30px;
+    font-family: "CALIBRI";
+    letter-spacing: -0.5px;
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 47px;
+    padding-bottom: 39px;
+    line-height: 36px;
+}
+.expert_block{
+    padding-bottom: 11px;
+}
+.photo_expert{
+	float: left;
+    padding-left: 41px;
+    padding-right: 25px;
+}
+.expert_content{
+    float: left;
+    max-width: 780px;
+}
+.expert_content .expert_content_body p{
+	padding-left: 0
+}
+.expert_name{
+	color: #4cabd7;
+	font-size: 36px;
+	font-family: "CALIBRIB";
+}
+.expert_channel{
+	color: #caccce;
+	font-size: 36px;
+    font-family: "CALIBRI";
+}
+.expert_content_header{
+    margin-bottom: 10px;
+}
+.expert_date{
+	float: right;
+	margin-right: 40px;
+}
+.expert_date li{
+	display: inline-block;
+	color: #caccce;
+	font-size: 36px;
+    font-family: "CALIBRI";
+}
+.bbs {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 48px;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px 40px;
+    z-index: 10;
+}
+.bt{
+	width: 29vw;
+	max-width: 318px;
+	display: inline-block;
+    font-family: "CALIBRI";
+	font-size: 44px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 104px;
+	background-color: #4cabd7;
+	color:#fff;
+	border: 3px solid #4cabd7;
+	border-radius: 6px;
+	-webkit-transition: all 0.5s;
+	-webkit-transition: background-color 0.5s, color 0.5s;
+	transition:background-color 0.5s, color 0.5s;
+}
+.bt-back{
+	background-color: #fff;
+	color: #4cabd7;
+}
+.bt:hover,
+.bt:focus{
+    background-color: #fff;
+    color: #4cabd7;
+    text-decoration:none;
+} 
+.bt-back:hover{
+	background-color: #4cabd7;
+	color: #fff;
+}
+
+/*carusel*/
+
+.stock_change .right_tab{
+	float: right;
+}
+.stock_change span{
+	color:#4d5a64;
+	font-size: 35px;
+    font-family: "CALIBRI";
+    text-transform: uppercase;
+    display: block;
+}
+.stock_change i{
+	color:#ccc;
+	font-size: 30px;
+    font-family: "CALIBRI";
+    text-transform: uppercase;
+    font-style: italic;
+}
+.sub_logo_left_sc{
+	float: left;
+    margin-right: 25px;
+}
+.sub_name_left_sc{
+	float: left;
+}
+
+.sub_logo_right_sc{
+	float: right;
+    margin-left: 25px;
+}
+.sub_name_right_sc{
+	float: right;
+}
+.wrap3_block .stock_change .left_tab a{
+	padding-left: 23px;
+}
+.wrap3_block .stock_change .right_tab a{
+	padding-right: 23px;
+	text-align: right;
+
+}
+.wrap3content .wrap3_block .stock_change li a{
+	border: 0;
+	border-bottom: 3px solid rgba(76, 171, 215, 0);
+    background-color: #fff!important;
+    position: relative;
+}
+.wrap3content .wrap3_block .stock_change li.active a{
+	    border-bottom: 3px solid #4cabd7!important;
+}
+.wrap3content .wrap3_block .stock_change li.active a:after{
+	content: "";
+	background-image: url('../images/arrow_down_active.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 31px;
+    height: 19px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -19px;
+    margin: 0 auto;
+    z-index: 2;
+}
+.stock_change li{
+    width: 30vw;
+    max-width: 367px;
+}
+.stock_change ul{
+    background-color: #e5eaee;
+    border: 0;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+.stock_change table{
+	width: 100%;
+}
+.stock_change table tr:nth-child(1){
+	color:#3ac519;
+}
+.stock_change table tr:nth-child(2){
+	color:#a6acb1;
+}
+.stock_change table tr:nth-child(3){
+	color:#de3e30;
+}
+.stock_change table td{
+	width: 50%;
+	border: 3px solid #e5eaee;
+
+}
+.stock_change table td:first-child{
+	font-size: 36px;
+	font-family: "CALIBRIB";
+    padding-left: 35px;
+    line-height: 69px;
+}
+.stock_change table td:last-child{
+	text-align: right;
+	font-size: 30px;
+	font-family: "CALIBRIB";
+    padding-right: 30px;
+}
+
+.stock_change .nav-tabs{
+	position: relative;
+}
+.stock_change .nav-tabs-center{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	max-width: 200px;
+	padding-top: 23px;
+}
+.stock_change .nav-tabs-center p{
+	padding:0;
+	margin:0;
+	text-align: center;
+	color: #4cabd7;
+	font-family: "CALIBRIB";
+	letter-spacing: -0.2px;
+}
+.stock_change .nav-tabs-center .nav_date{
+	font-size: 36px;
+}
+.stock_change .nav-tabs-center .nav_time{
+	font-size: 30px;
+}
+#carousel-example-generic .carousel-control{
+	background-image: none;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    width: 0;
+    top: -55px;
+}
+#carousel-example-generic .glyphicon:before{
+	content: "";
+}
+#carousel-example-generic .glyphicon{
+	width: 27px;
+	height: 48px;
+    top: 0;
+}
+.left.carousel-control{
+	left: 36%;
+}
+.right.carousel-control{
+	right: 36%;
+}
+#carousel-example-generic .glyphicon-chevron-right{
+	background-image: url('../images/next_game_right.png');
+}
+#carousel-example-generic .glyphicon-chevron-left{
+	background-image: url('../images/next_game_left.png');
+}
+#carousel-example-generic .glyphicon-chevron-right:hover,
+#carousel-example-generic .glyphicon-chevron-right.active{
+	background-image: url('../images/next_game_right_active.png');
+}
+#carousel-example-generic .glyphicon-chevron-left:hover,
+#carousel-example-generic .glyphicon-chevron-left.active{
+	background-image: url('../images/next_game_left_active.png');
+}
+
+.wrap3_block_stok .sub_h3 h3{
+	margin-bottom: 48px;
+}
+
+.wrap3_block_stok h4{
+	text-align: center;
+	color: #b8bdc1;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: -0.2px;
+    margin-bottom: 23px;
+    font-family: "CALIBRI";
+}
+/*end carusel*/
+
+.performance_table table{
+	width: 100%;
+}
+.performance_table table tr{
+	border-top: 3px solid #e5eaee;
+}
+.performance_table table .performance_header{
+	border-top: 0;
+}
+.performance_table table tr td{
+	width: 33.3%;
+	text-align: center;
+    color: #4d5a64;
+    font-size: 60px;
+    font-family: "CALIBRIB";
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.performance_table table .performance_header td{
+    color: rgba(77, 90, 100, 0.4);
+	font-size: 30px;
+    font-family: "CALIBRI";
+    padding-bottom: 18px;
+}
+.performance_table h5{
+	display: inline-block;
+	color: #4d5a64;
+	font-size: 36px;
+    font-family: "CALIBRI";
+    max-width: 160px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 43px;
+}
+.performance_tr td:first-child{
+	text-align: left;
+}
+.performance_table .performance_tr table{
+	width: 100%;
+    max-height: 153px;
+    height: 20vh;
+}
+.performance_table .performance_tr table td{
+	width: 50%;
+}
+.performance_table .performance_tr table tr{
+	border-top: 0;
+}
+.performance_tr table td:first-child{
+	text-align: center;
+	padding-left: 22px;
+}
+.performance_tr table td:last-child{
+	text-align: left;
+}
+/*last_5_games*/
+.last_5_games_block{
+	background-color: #e5eaee;
+}
+.last_5_games_logo{
+	float: left;
+}
+.last_5_games_content{
+	float: left;
+	width: calc(100% - 180px);
+	padding-left: 43px;
+}
+.last_5_games_header{
+	border-bottom: 2px solid #b7bbbe;
+    margin-bottom: 25px;
+}
+.last_5_games_header h2{
+    font-size: 60px;
+    font-family: "CALIBRIB";
+    color: #4d5a64;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 5px;
+}
+.last_5_games_money{
+	float: right;
+}
+
+.last_5_games_money_sum{
+	color: #4d5a64;
+	font-size: 60px;
+    font-family: "CALIBRIB";
+}
+.last_5_games_money_percent{
+    color: #3ac519;
+    font-size: 36px;
+    font-family: "CALIBRIB";
+    vertical-align: top;
+    margin-top: 11px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.last_5_games h3{
+	float: left;
+	color: rgba(77, 90, 100, 0.5);
+	font-size: 30px;
+    font-family: "CALIBRIL";
+    text-transform: uppercase;
+}
+.last_5_games ul{
+	float: right;
+}
+.last_5_games ul li{
+	display: inline-block;
+	color: #4d5a64;
+    font-size: 30px;
+    font-family: "CALIBRIB";
+    text-transform: uppercase;
+    background-image: url('../images/dot.png');
+    background-repeat: no-repeat;
+    background-position: center right 9px;
+    padding-right: 28px;
+}
+.last_5_games ul li:last-child{
+	padding-right: 0px;
+	background: none;
+}
+.last_5_games_upcoming h3{
+	float: left;
+	color: rgba(77, 90, 100, 0.5);
+	font-size: 30px;
+    font-family: "CALIBRIL";
+    text-transform: uppercase;
+}
+.last_5_games_upcoming_inner{
+	float: right;
+	margin-top: -4px;
+}
+.last_5_games_upcoming_inner strong{
+	color: #4d5a64;
+    font-size: 30px;
+    font-family: "CALIBRIB";
+    text-transform: uppercase;
+    background-image: url('../images/dot.png');
+    background-repeat: no-repeat;
+    background-position: center right 9px;
+    padding-right: 28px;
+    vertical-align: top;
+}
+.last_5_games_upcoming_inner span{
+	color: #4d5a64;
+    font-size: 30px;
+    font-family: "CALIBRIB";
+    vertical-align: top;
+}
+.last_5_games_upcoming_inner a{
+	display: inline-block;
+    background-image: url(../images/din_din.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 67px;
+    height: 60px;
+    vertical-align: top;
+    margin-top: -7px;
+    margin-left: 19px;
+}
+.last_5_games_upcoming{
+	margin-top: 18px;
+}
+.analytics{
+	position: relative;
+}
+.wmy{
+	position: absolute;
+	top: 27px;
+	right: 0;
+}
+.wmy li{
+	display: inline-block;
+}
+
+.wmy li a {
+    color: #4d5a64;
+    font-size: 30px;
+    font-family: "CALIBRIL";
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 24px;
+    border-top: 5px solid rgba(0, 0, 0, 0);
+}
+.wmy li a.active {
+    color: #4cabd7;
+    border-top: 5px solid #4cabd7;
+    font-family: "CALIBRIB";
+}
+.wmy li a:hover {
+    color: #4cabd7;
+    border-top: 5px solid #4cabd7;
+}
+.carousel_grafik_left{
+	float: left;
+}
+.carousel_grafik_right{
+	float: right;
+}
+.carousel_date,
+.carousel_year{
+	color: #6a7883;
+	font-size: 36px;
+    font-family: "CALIBRIL";
+}
+.carousel_year{
+	background-image: url('../images/dot.png');
+    background-repeat: no-repeat;
+    background-position: center right 9px;
+    padding-right: 22px;
+}
+.carousel_money{
+	color: #4cabd7;
+    font-size: 36px;
+    font-family: "CALIBRIB";
+}
+.carousel_percent{
+	color: #3ac519;
+    font-size: 36px;
+    font-family: "CALIBRIB";
+}
+.sub_carousel_grafik{
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-bottom: 30px;
+}
+.carousel_grafik{
+    margin-top: 11px;
+}
+#carousel-example-generic2 .carousel-control-left,
+#carousel-example-generic2 .carousel-control-right{
+	top: 14px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 27px;
+    height: 48px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+#carousel-example-generic2 .carousel-control-left{
+	left: -72px;
+    background-image: url(../images/next_game_left_active.png);
+
+}
+#carousel-example-generic2 .carousel-control-right{
+	right: -72px;
+	background-image: url(../images/next_game_right_active.png);
+}
+.game_against_left{
+	float: left;
+	color: #6a7883;
+	font-size: 30px;
+    font-family: "CALIBRI";
+}
+.game_against_right{
+	float: right;
+	color: #90da85;
+	font-size: 30px;
+    font-family: "CALIBRIL";
+}
+.game_against{
+    border-top: 1px solid #c6cdd2;
+    border-bottom: 1px solid #c6cdd2;
+    line-height: 84px;
+    margin-top: 22px;
+}
+.news_cnn{
+	text-align: left;
+    margin-top: 22px
+}
+.news_cnn a{
+	color: #4cabd7;
+	font-size: 30px;
+    font-family: "CALIBRI";
+    text-decoration: underline;
+}
+.news_cnn a:hover{
+	text-decoration: none;
+}
+.for_grafik img{
+	width: 100%;
+}
+/*end last_5_games*/
+@media only screen and (min-width: 1080px){
+    .wrap3 {
+        margin-top: 130px;
+    }
+    .last_5_games_logo {
+        width: 45px;
+    }
+    .last_5_games_logo img {
+        width: 100%;
+    }
+    .last_5_games_header h2,
+    .last_5_games_money_sum {
+        font-size: 24px;
+    }
+    .last_5_games_money_percent {
+        font-size: 16px;
+        margin-top: 0;
+        margin-left: 4px;
+    }
+    .last_5_games h3,
+    .last_5_games_upcoming h3,
+    .last_5_games ul li,
+    .last_5_games_upcoming_inner strong,
+    .last_5_games_upcoming_inner span {
+        font-size: 16px;
+    }
+    .last_5_games_upcoming_inner a {
+        width: 25px;
+        height: 25px;
+        margin-top: -1px;
+        margin-left: 15px;
+    }
+    .wrap3_block {
+        margin-top: 18px;
+    }
+    .add_menu h2,
+    .add_menu_black,
+    .add_menu_green {
+        font-size:18px;
+    }
+    .add_menu ul li a {
+        width: 25px;
+        height: 25px;
+        margin-top: 3px;
+    }
+    .add_menu h2 {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    .wmy li a,
+    .wmy li a:hover,
+    .wmy li a.active {
+        border-top-width: 2px;
+        font-size: 14px;
+        padding-top: 27px;
+    }
+    .wrap3_block h3 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 36px;
+    }
+    .wrap3_block h3:after {
+        width: calc(100% + 40px);
+        left: -20px;
+        bottom: -8px;
+    }
+    .for_grafik img {
+        width: 50%;
+    }
+    .bt {
+        width: 29vw;
+        font-size: 18px;
+        line-height: 34px;
+    }
+    .carousel_date, .carousel_year, .carousel_money, .carousel_percent {
+        font-size: 18px;
+    }
+    #carousel-example-generic2 .carousel-control-left, #carousel-example-generic2 .carousel-control-right {
+        width: 12px;
+    }
+    .game_against_left,
+    .game_against_right,
+    .news_cnn a {
+        font-size: 14px;
+    }
+    .game_against {
+        line-height: 50px;
+    }
+    .news_cnn {
+        margin-top: 12px;
+    }
+    .performance_table table .performance_header td {
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+    .performance_tr table td:first-child img {
+        width: 25%;
+    }
+    .performance_table table tr td {
+        font-size: 16px;
+    }
+    .performance_table .performance_tr table {
+        height: 0vh;
+    }
+    .performance_table h5 {
+        font-size: 14px;
+    }
+    .bt_color {
+        font-size: 16px;
+        line-height: 36px;
+        border-width: 2px;
+        width: 11vw;
+    }
+    .bt_green {
+        background-size: 8%;
+    }
+    .wrap3_block p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 20px;
+    }
+    .wrap3_block_stok h4 {
+        font-size: 16px;
+        margin-top: -10px;
+    }
+    #carousel-example-generic .glyphicon {
+        width: 15px;
+        height: 23px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 18px;
+    }
+    .sub_logo_left_sc, .sub_logo_right_sc {
+        max-width: 40px;
+    }
+    .sub_logo_left_sc img, .sub_logo_right_sc img {
+        width: 100%;
+    }
+    .stock_change span,
+    .stock_change .nav-tabs-center .nav_date,
+    .stock_change .nav-tabs-center .nav_time,
+    .stock_change i {
+        font-size: 16px;
+    }
+    .stock_change table td:first-child {
+        font-size: 16px;
+        line-height: 39px;
+    }
+    .stock_change table td:last-child {
+        font-size: 18px;
+    }
+    .expert_name,
+    .expert_channel,
+    .expert_date li {
+        font-size: 16px;
+    }
+    .photo_expert {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        width: 6vw;
+    }
+    .photo_expert img {
+        width: 100%;
+    }
+    .expert_content {
+        max-width: 870px;
+    }
+    .wrap3content {
+        padding-bottom: 125px;
+    }
+        .wrap3content .wrap3_block .stock_change li.active a {
+            border-bottom-width: 2px!important;
+        }
+        .wrap3content .wrap3_block .stock_change li.active a:after {
+            width: 21px;
+        }
+}
+@media only screen and (max-width: 1080px){
+	.carousel_date, .carousel_year, .carousel_money, .carousel_percent{
+		font-size: 34px;
+	}
+	.game_against_left,
+	.game_against_right,
+	.news_cnn a{
+		font-size: 28px;
+	}
+	.last_5_games_content{
+	    width: calc(100% - 16vw);
+	    padding-left: 3vw;
+	}
+	.last_5_games_logo{
+	width: 14vw;
+	}
+	.last_5_games_logo img{
+		width: 100%;
+	}
+	.last_5_games_header h2,
+	.last_5_games_money_sum{
+    	font-size: 58px;
+	}
+	.last_5_games h3,
+	.last_5_games_upcoming h3,
+	.last_5_games_upcoming_inner strong,
+	.last_5_games_upcoming_inner span,
+	.last_5_games ul li{
+		font-size: 28px;
+	}
+	.performance_tr td:first-child img {
+	    width: 60%;
+	}
+	.performance_tr table td:first-child {
+	    padding-left: 12px;
+	    min-width: 150px;
+	}
+	.performance_table table tr td{
+		font-size: 50px;
+	}
+	.performance_table h5{
+		font-size: 32px;
+	    line-height: 38px;
+	}
+	.photo_expert {
+	    float: left;
+	    padding-left: 25px;
+	    padding-right: 25px;
+	}
+	.wrap3_block p{
+	    letter-spacing: -0.9px;
+	    font-size: 28px;
+    	line-height: 34px
+	}
+    .expert_content {
+        max-width: 641px;
+    }
+}
+@media only screen and (max-width: 920px){
+    .bbs {
+        padding: 25px 30px;
+    }
+	.sub_carousel_grafik {
+	    padding-left: 95px;
+	    padding-right: 95px;
+	}
+	.game_against{
+		margin-top: 20px;
+	}
+	.carousel_date, .carousel_year, .carousel_money, .carousel_percent {
+	    font-size: 28px;
+	}
+	.game_against_left, .game_against_right, .news_cnn a {
+	    font-size: 21px;
+	}
+	.wmy li a{
+	    font-size: 26px;
+        padding-left: 20px;
+    	padding-right: 20px;
+	}
+	.last_5_games_money_percent{
+		font-size: 28px;
+	}
+
+    .last_5_games_upcoming_inner a {
+        width: 47px;
+        height: 40px;
+        margin-top: -3px;
+    }
+	.last_5_games ul li{
+	    padding-right: 21px;
+	}
+	.last_5_games h3, .last_5_games_upcoming h3, .last_5_games_upcoming_inner strong, .last_5_games_upcoming_inner span, .last_5_games ul li {
+	    font-size: 24px;
+	}
+	.last_5_games_header h2, .last_5_games_money_sum {
+	    font-size: 48px;
+	}
+	.performance_table table .performance_header td{
+	    font-size: 28px;
+	}
+	.performance_table table tr td {
+	    font-size: 45px;
+	}
+	.performance_table h5 {
+	    font-size: 28px;
+	    line-height: 32px;
+	}
+	.sub_logo_right_sc{
+		margin-left: 20px
+	}
+	.sub_logo_left_sc {
+	    margin-right: 20px;
+	}
+	.wrap3content .wrap3_block .stock_change li.active a:after{
+	    width: 21px;
+	}
+	.wrap3content .wrap3_block .stock_change li.active a {
+	    border-bottom: 2px solid #4cabd7!important;
+	}
+	.stock_change table td:last-child{
+	    font-size: 25px;
+	}
+	.stock_change table td:first-child{
+	    font-size: 26px;
+	    line-height: 59px;
+	}
+	.stock_change .nav-tabs-center .nav_date {
+	    font-size: 28px;
+	}
+	.stock_change .nav-tabs-center .nav_time {
+	    font-size: 26px;
+	}
+	.stock_change span{
+	    font-size: 25px;
+        margin-top: 10px;
+	}
+	.stock_change i{
+	    font-size: 20px;
+	}
+	.wrap3_block_stok h4{
+		font-size: 28px;
+	}
+	.wrap3content{
+		padding-bottom: 205px;
+	}
+    .bt {
+        font-size: 40px;
+        line-height: 8vw;
+    }
+	.expert_content_header {
+	    margin-bottom: 0;
+	}
+	.expert_date li,
+	.expert_name,
+	.expert_channel{
+	    font-size: 30px;
+	}
+    .expert_content{
+        float:none;
+    }
+    .expert_content .expert_content_body p {
+        padding-left: 20px;
+    }
+    .photo_expert {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        width: 16vw;
+    }
+    .photo_expert img{
+        width:100%;
+    }
+	.wrap3_block p{
+		font-size: 28px;
+		line-height: 34px;
+		padding-left: 35px;
+	}
+    .wrap3 {
+        margin-top: 310px;
+    }
+	.add_menu h2,
+	.add_menu_black,
+	.add_menu_green{
+	    font-size: 28px;
+	}
+	.add_menu ul li a{
+	    width: 42px;
+	    height: 37px;
+	    margin-top: 7px;
+	    margin-right: 5px;
+	}
+	.bt_color{
+	    font-size: 36px;
+        width: 26vw;
+        line-height: 67px;
+        padding-left: 35px;
+	}
+	.bt_green{
+	    background-size: 13%;
+	}
+}
+@media only screen and (max-width: 768px){
+    .bbs {
+        padding: 20px 20px;
+    }
+	#carousel-example-generic2 .carousel-control-right{
+		right: -50px;
+	}
+	#carousel-example-generic2 .carousel-control-left{
+		left: -50px;
+	}
+	#carousel-example-generic2 .carousel-control-left, #carousel-example-generic2 .carousel-control-right{
+	    width: 17px;
+	}
+	.carousel_date, .carousel_year, .carousel_money, .carousel_percent {
+	    font-size: 24px;
+	}
+	.game_against_left, .game_against_right, .news_cnn a {
+	    font-size: 18px;
+	}
+	.sub_carousel_grafik{
+	    padding-left: 80px;
+	    padding-right: 80px;
+	}
+	.news_cnn {
+	    margin-top: 15px;
+	}
+	.game_against {
+	    margin-top: 9px;
+	    line-height: 60px;
+	}
+	.wmy li a {
+	    font-size: 23px;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+    .last_5_games_upcoming_inner a {
+        width: 36px;
+        margin-top: -1px;
+    }
+	.last_5_games_upcoming {
+	    margin-top: 14px;
+	}
+	.last_5_games_header {
+	    border-bottom: 1px solid #b7bbbe;
+	    margin-bottom: 18px;
+	}
+	.last_5_games h3, .last_5_games_upcoming h3, .last_5_games_upcoming_inner strong, .last_5_games_upcoming_inner span, .last_5_games ul li {
+	    font-size: 21px;
+	}
+	.last_5_games_header h2, .last_5_games_money_sum {
+	    font-size: 38px;
+	}
+	.last_5_games_money_percent {
+	    font-size: 24px;
+        margin-top: 0;
+	}
+	.performance_table .performance_tr table{
+	    max-height: 143px;
+	}
+	.performance_table table tr td {
+	    font-size: 42px;
+	}
+	.performance_tr table td:first-child {
+	    padding-left: 0;
+	    min-width: 140px;
+	}
+	.performance_table table .performance_header td {
+	    font-size: 26px;
+	}
+    .bt {
+        width: 29vw;
+    }
+	.stock_change .nav-tabs-center{
+		padding-top: 33px;
+	}
+	.sub_name_right_sc,
+	.sub_name_left_sc{
+		float: none;
+	}
+	.wrap3_block .stock_change .left_tab a {
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    margin-right: 0;
+        width: 100%;
+    	text-align: center;
+	}
+	.wrap3_block .stock_change .right_tab a {
+	    padding-right: 10px;
+        padding-left: 10px;
+        width: 100%;
+    	text-align: center;
+	}
+	.sub_logo_right_sc{
+		margin-left: 0;
+	}
+	.sub_logo_left_sc {
+	    margin-right: 0;
+        padding-left: 0;
+	}
+	
+	#carousel-example-generic .carousel-control {
+	    top: -51px;
+	}
+	.right.carousel-control {
+	    right: 34%;
+	}
+	.left.carousel-control {
+	    left: 34%;
+	}
+	.wrap3_block_stok h4{
+		font-size: 26px;
+	    margin-top: 0;
+	}
+	.wrap3content{
+		padding-bottom: 175px;
+	}
+	.bt {
+	    font-size: 36px;
+	}
+    .expert_date li,
+    .expert_name,
+    .expert_channel {
+        font-size: 26px;
+    }
+	.wrap3_block p {
+	    font-size: 24px;
+	    line-height: 28px;
+        padding-left: 20px;
+	}
+	.wrap3_block h3{
+		font-size: 26px;
+	    margin-top: 24px;
+    	margin-bottom: 46px;
+	}
+	.wrap3_block h3:after{
+	    width: calc(100% + 100px);
+	    left: -50px;
+		bottom: -16px;
+	}
+
+    .wrap3 {
+        margin-top: 280px;
+    }
+	.wrap3_block{
+	    margin-top: 28px;
+	}
+	.add_menu h2,
+	.add_menu_black,
+	.add_menu_green{
+	    font-size: 24px;
+	}
+	.add_menu ul li a {
+	    width: 36px;
+	    height: 34px;
+	}
+	.bt_color {
+	    font-size: 28px;
+	    width: 25vw;
+	    line-height: 56px;
+	    padding-left: 25px;
+	}
+	.wrap3content{
+	    padding-left: 30px;
+    	padding-right: 30px;
+	}
+}
+@media only screen and (max-width: 650px){
+    .last_5_games_upcoming_inner a {
+        width: 34px;
+        margin-top: -4px;
+        margin-left: 9px;
+    }
+	.sub_carousel_grafik {
+	    padding-left: 65px;
+	    padding-right: 65px;
+	}
+	#carousel-example-generic2 .carousel-control-left, #carousel-example-generic2 .carousel-control-right {
+	    width: 13px;
+	}
+	.game_against_left, .game_against_right, .news_cnn a {
+	    font-size: 17px;
+	}
+	.carousel_date, .carousel_year, .carousel_money, .carousel_percent {
+	    font-size: 20px;
+	}
+	.last_5_games_upcoming_inner {
+	    float: right;
+	    margin-top: -3px;
+	}	.last_5_games h3, .last_5_games_upcoming h3, .last_5_games_upcoming_inner strong, .last_5_games_upcoming_inner span, .last_5_games ul li {
+	    font-size: 18px;
+	}
+	.last_5_games_header h2, .last_5_games_money_sum {
+	    font-size: 36px;
+	}
+	.performance_table .performance_tr table {
+	    max-height: 123px;
+	}
+	.performance_table table .performance_header td {
+	    font-size: 20px;
+	}
+	.performance_table table tr td {
+	    font-size: 34px;
+	}
+	.performance_tr td:first-child img {
+	    width: 70%;
+	}
+	.performance_table h5 {
+	    font-size: 22px;
+	    line-height: 24px;
+	}
+	.performance_table .performance_tr table{
+		width: 100px;
+	}
+	.performance_tr table td:first-child{
+		min-width: 90px;
+	}
+	.sub_logo_left_sc img,
+	.sub_logo_right_sc img{
+		width: 100%;
+	}
+	.sub_logo_left_sc,
+	.sub_logo_right_sc{
+		max-width: 60px;
+	}
+	.stock_change span {
+	    font-size: 22px;
+	}
+	.stock_change i {
+	    font-size: 18px;
+	}
+
+}
+@media only screen and (max-width: 600px){
+    .bbs {
+        padding: 15px;
+    }
+    .add_menu {
+        padding: 5px;
+    }
+    .last_5_games_header {
+        margin-bottom: 11px;
+    }
+    .wrap3_block {
+        margin-top: 20px;
+    }
+	#carousel-example-generic2 .carousel-control-left {
+	    left: -30px;
+	}
+	#carousel-example-generic2 .carousel-control-right{
+		right: -30px;
+	}
+	.carousel_date, .carousel_year, .carousel_money, .carousel_percent {
+	    font-size: 18px;
+	}
+	.game_against_left, .game_against_right, .news_cnn a {
+	    font-size: 16px;
+	}
+	.sub_carousel_grafik {
+	    padding-left: 55px;
+	    padding-right: 55px;
+	}
+	.wmy li a {
+	    font-size: 20px;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	.last_5_games_upcoming_inner strong{
+	    padding-right: 14px;
+        background-position: center right 3px;
+	}
+	.last_5_games_upcoming_inner a{
+	    margin-left: 9px;
+	}
+	.last_5_games h3, .last_5_games_upcoming h3, .last_5_games_upcoming_inner strong, .last_5_games_upcoming_inner span, .last_5_games ul li {
+	    font-size: 17px;
+	}
+	.last_5_games_header h2, .last_5_games_money_sum {
+	    font-size: 32px;
+	}
+	.last_5_games_money_percent {
+	    font-size: 20px;
+	    margin-top: 2px;
+	}
+	.performance_table .performance_tr table {
+	    max-height: 113px;
+	}
+	.performance_table table tr td {
+	    font-size: 32px;
+	}
+	.performance_table h5 {
+	    font-size: 20px;
+	    line-height: 23px;
+	}
+	.performance_table table .performance_header td {
+	    font-size: 18px;
+	}
+	.stock_change .nav-tabs-center{
+	    max-width: 120px;
+	}
+	.stock_change li {
+	    width: 32vw;
+	}
+	.stock_change .nav-tabs-center {
+	    padding-top: 23px;
+	}
+	.sub_logo_left_sc,
+	.sub_logo_right_sc{
+		max-width: 50px;
+	}
+	.stock_change table td:last-child {
+	    font-size: 20px;
+	    padding-right: 25px;
+	}
+	.stock_change table td:first-child {
+	    font-size: 22px;
+	    line-height: 49px;
+	    padding-left: 25px;
+	}
+	.stock_change .nav-tabs-center .nav_date {
+	    font-size: 22px;
+	}
+	.stock_change .nav-tabs-center .nav_time {
+	    font-size: 24px;
+	}
+	.stock_change span {
+	    font-size: 20px;
+	}
+	.stock_change i {
+	    font-size: 16px;
+	}
+	.right.carousel-control {
+	    right: 32%;
+	}
+	.left.carousel-control {
+	    left: 32%;
+	}
+	.wrap3content {
+	    padding-bottom: 155px;
+	}
+	.bt {
+	    font-size: 32px;
+        border-width:2px;
+	}
+	.expert_date li,
+	.expert_name,
+	.expert_channel{
+	    font-size: 24px;
+	}
+	.wrap3_block p {
+	    font-size: 18px;
+	    line-height: 23px;
+	    padding-bottom: 20px;
+	}
+	.wrap3_block h3 {
+	    font-size: 24px;
+	    margin-bottom: 40px;
+	}
+	.wrap3_block h3:after {
+	    width: calc(100% + 80px);
+	    left: -40px;
+	    bottom: -10px;
+	}
+    .wrap3 {
+        margin-top: 220px;
+    }
+	.add_menu h2,
+	.add_menu_black,
+	.add_menu_green{
+	    font-size: 20px;
+	}
+	.bt_color {
+	    font-size: 24px;
+	    width: 24vw;
+	    line-height: 46px;
+	    padding-left: 15px;
+	}
+}
+@media only screen and (max-width: 530px){
+    .expert_date li, .expert_name, .expert_channel {
+        font-size: 21px;
+    }
+    .last_5_games_upcoming {
+        margin-top: 10px;
+    }
+	#carousel-example-generic2 .carousel-control-left {
+	    left: -25px;
+	}
+	#carousel-example-generic2 .carousel-control-right{
+		right: -25px;
+	}
+	.game_against_left, .game_against_right, .news_cnn a {
+	    font-size: 15px;
+	}
+	.sub_carousel_grafik {
+	    padding-left: 35px;
+	    padding-right: 35px;
+	}
+	.wmy{
+		top: 13px
+	}
+	.wmy li a{
+		font-size: 18px;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    padding-top: 12px;
+	    border-width: 2px;
+	}
+	.wmy li a.active{
+		border-width: 2px;	
+	}
+	.last_5_games_content {
+	    width: calc(100% - 12vw);
+	}
+	.last_5_games_logo {
+	    width: 12vw;
+	}
+	.last_5_games_upcoming_inner {
+	    float: right;
+	    margin-top: -2px;
+	}
+    .last_5_games_upcoming_inner a {
+        margin-left: 5px;
+        margin-top: -5px;
+    }
+	.last_5_games h3, .last_5_games_upcoming h3, .last_5_games_upcoming_inner strong, .last_5_games_upcoming_inner span, .last_5_games ul li {
+	    font-size: 15px;
+	}
+	.last_5_games_header h2, .last_5_games_money_sum {
+	    font-size: 26px;
+	}
+	.last_5_games_header h2, .last_5_games_money_sum {
+	    font-size: 26px;
+	}
+	.last_5_games_content{
+		padding-left: 2vw;
+	}
+	.performance_table .performance_tr table {
+	    max-height: 103px;
+	}
+	.performance_table table tr td {
+	    font-size: 30px;
+	}
+	.performance_table h5 {
+	    font-size: 19px;
+	    line-height: 22px;
+	}
+	.performance_table table .performance_header td {
+	    font-size: 16px;
+	}
+	.sub_logo_left_sc,
+	.sub_logo_right_sc{
+		max-width: 40px;
+	}
+	.stock_change span {
+	    font-size: 18px;
+	}
+	.stock_change i {
+	    font-size: 15px;
+	}
+	.stock_change table td:last-child {
+	    font-size: 20px;
+	}
+	.stock_change table td:first-child {
+	    font-size: 20px;
+	    line-height: 45px;
+	}
+	.stock_change .nav-tabs-center .nav_date {
+	    font-size: 19px;
+	}
+	.stock_change .nav-tabs-center .nav_time {
+	    font-size: 17px;
+	}
+	.wrap3_block_stok .sub_h3 h3 {
+	    margin-bottom: 38px;
+	}
+	#carousel-example-generic .glyphicon{
+		width: 17px;
+	    top: 10px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+	.right.carousel-control {
+	    right: 30%;
+	}
+	.left.carousel-control {
+	    left: 30%;
+	}
+	.wrap3_block_stok h4 {
+	    font-size: 20px;
+	}
+	.wrap3content {
+	    padding-bottom: 150px;
+	}
+	.wrap3_block h3 {
+	    font-size: 22px;
+	    margin-bottom: 35px;
+	}
+	.wrap3_block h3:after {
+	    width: calc(100% + 60px);
+	    left: -30px;
+	}
+    .wrap3 {
+        margin-top: 200px;
+    }
+	.bt_color {
+	    font-size: 18px;
+	    line-height: 36px;
+	    padding-left: 10px;
+	    border-width: 2px;
+	}
+	.wrap3_buttons_group {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    padding-bottom: 20px;
+	}
+	.wrap3content {
+	    padding-left: 25px;
+	    padding-right: 25px;
+	}
+}
+@media only screen and (max-width: 480px){
+    .wrap3 {
+        margin-top: 180px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .expert_date li, .expert_name, .expert_channel {
+        font-size: 20px;
+    }
+    .carousel_grafik {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sub_carousel_grafik {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bt {
+        font-size: 24px;
+        border-width: 1px;
+    }
+    .last_5_games_upcoming_inner a {
+        margin-top: -6px;
+    }
+    .wrap3 {
+        margin-top: 170px;
+    }
+    #carousel-example-generic2 .carousel-control-left, #carousel-example-generic2 .carousel-control-right {
+        width: 12px;
+        right: -2px;
+    }
+    #carousel-example-generic2 .carousel-control-left {
+        width: 12px;
+        left: -2px;
+    }
+
+	.game_against {
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	    line-height: 25px;
+	}
+    .game_against_left, .game_against_right, .news_cnn a {
+        font-size: 14px;
+    }
+	.wmy li a{
+	    padding-left: 6px;
+    	padding-right: 6px;
+	}
+    .wrap3content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .last_5_games h3, .last_5_games_upcoming h3, .last_5_games_upcoming_inner strong, .last_5_games_upcoming_inner span, .last_5_games ul li {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .expert_date li, .expert_name, .expert_channel {
+        font-size: 18px;
+    }
+    .expert_date {
+        margin-right: 20px;
+    }
+    .game_against_left, .game_against_right, .news_cnn a {
+        font-size: 13px;
+    }
+    .add_menu h2 {
+        margin-top: 14px;
+    }
+    .add_menu {
+        padding: 3px;
+    }
+    .last_5_games_upcoming_inner strong {
+        padding-right: 11px;
+        background-position: center right 2px;
+        background-size: 6%;
+    }
+    .last_5_games_upcoming_inner a {
+        width: 32px;
+        margin-left: 2px;
+    }
+    .last_5_games_header h2, .last_5_games_money_sum {
+        font-size: 22px;
+    }
+    .wrap3 {
+        margin-top: 155px;
+    }
+	.carousel_date, .carousel_year, .carousel_money, .carousel_percent {
+	    font-size: 17px;
+	}
+	.wmy li a{
+		font-size: 15px;
+	}
+    .last_5_games h3, .last_5_games_upcoming h3, .last_5_games_upcoming_inner strong, .last_5_games_upcoming_inner span, .last_5_games ul li {
+        font-size: 13px;
+    }
+	.performance_table .performance_tr table {
+	    max-height: 93px;
+	}
+	.performance_tr table td:first-child {
+	    min-width: 70px;
+	}
+	.performance_table table tr td {
+	    font-size: 26px;
+	}
+	.performance_table table tr td:first-child{
+		max-width: 140px;
+	}
+	.performance_table h5 {
+	    font-size: 16px;
+	    line-height: 19px;
+	}
+	.performance_table table .performance_header td {
+	    font-size: 15px;
+	    letter-spacing: -1px;
+	}
+	.stock_change .nav-tabs-center {
+	    max-width: 90px;
+	}
+	.wrap3_block .stock_change .left_tab a,
+	.wrap3_block .stock_change .right_tab a{
+	    padding-left: 5px;
+    	padding-right: 5px;
+	}
+	.stock_change table td:last-child {
+	    font-size: 18px;
+	    padding-right: 15px;
+	}
+	.stock_change table td:first-child {
+	    font-size: 18px;
+	    line-height: 40px;
+	    padding-left: 15px;
+	}
+	.stock_change span {
+	    font-size: 16px;
+	}
+	.stock_change .nav-tabs-center .nav_date {
+	    font-size: 18px;
+	}
+	.stock_change .nav-tabs-center .nav_time {
+	    font-size: 18px;
+	}
+	#carousel-example-generic .glyphicon{
+		top: 12px;
+	}
+	.wrap3_block_stok h4 {
+	    font-size: 18px;
+	}
+	.wrap3content {
+	    padding-bottom: 115px;
+	}
+    .bbs {
+        padding: 13px;
+    }
+    .bt {
+        font-size: 22px;
+        width: 28vw;
+    }
+	.wrap3_block h3 {
+	    font-size: 20px;
+	    margin-bottom: 30px;
+	}
+	.wrap3_block h3:after {
+	    width: 100%;
+	    left: 0;
+	}
+	.add_menu h2,
+	.add_menu_black,
+	.add_menu_green{
+	    font-size: 18px;
+	}
+	.bt_green {
+	    background-size: 15%;
+	    background-position: center right 5px;
+	}
+	.bt_color {
+	    font-size: 17px;
+	    line-height: 33px;
+	    padding-left: 6px;
+	    border-width: 1px;
+	}
+	.wrap3content {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+}
+@media only screen and (max-width: 350px){
+    .expert_date {
+        margin-right: 10px;
+    }
+    .game_against_left, .game_against_right, .news_cnn a {
+        font-size: 12px;
+    }
+    .wrap3content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .last_5_games_upcoming_inner a {
+        width: 28px;
+        margin-left: 2px;
+    }
+	.carousel_date, .carousel_year, .carousel_money, .carousel_percent {
+	    font-size: 16px;
+	}
+	.wmy {
+	    top: 12px;
+	}
+	.wmy li a{
+		font-size: 14px;
+	}
+	.last_5_games h3, .last_5_games_upcoming h3, .last_5_games_upcoming_inner strong, .last_5_games_upcoming_inner span, .last_5_games ul li {
+	    font-size: 12px;
+	}
+	.performance_table .performance_tr table {
+	    max-height: 83px;
+	}
+	.performance_table table tr td {
+	    font-size: 24px;
+	}
+	.performance_table h5 {
+	    font-size: 16px;
+	    line-height: 19px;
+	}
+	.performance_table table .performance_header td {
+	    font-size: 14px;
+	}
+	.sub_logo_left_sc, .sub_logo_right_sc {
+	    max-width: 35px;
+	}
+	.stock_change span {
+	    font-size: 15px;
+	}
+	.stock_change .nav-tabs-center .nav_date {
+	    font-size: 17px;
+	}
+	.stock_change .nav-tabs-center .nav_time {
+	    font-size: 17px;
+	}
+	.wrap3_block h3 {
+	    font-size: 18px;
+	    margin-bottom: 25px;
+	}
+	.wrap3_block h3:after{
+		border-width: 1px;
+		bottom: -5px;
+	}
+}

@@ -1,0 +1,55 @@
+header .wrap_flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+header .block_flex{
+    display: block;
+    margin: inherit;
+    width: 33.3%;
+    text-align: center;
+}
+header .portfolioWorth p{
+    text-align: center;
+}
+header .balance{
+    text-align: right;
+}
+header .balance,
+header .portfolioWorth{
+    margin-top: 58px;
+}
+header .balance h2,
+header .balance p{
+    padding-right: 42px;
+}
+
+@media only screen and (max-width: 768px){
+    header .balance, header .portfolioWorth {
+        margin-top: 38px;
+    }
+    header .photo {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 530px){
+    header .balance, header .portfolioWorth {
+        margin-top: 30px;
+    }
+    header .balance h2, header .balance p {
+        padding-right: 22px;
+    }
+}
+@media only screen and (max-width: 400px){
+    header .photo {
+        width: 65px;
+    }
+}
+@media only screen and (max-width: 350px){
+    header .photo {
+        width: 56px;
+    }
+}

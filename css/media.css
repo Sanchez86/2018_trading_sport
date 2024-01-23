@@ -1,0 +1,1430 @@
+﻿@media only screen and (max-width: 1080px){
+    
+    /*index*/
+    .stoks_wraper{
+        max-width: 800px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .table_logo{
+        width: 140px;
+        padding-top: 20px;
+    }
+    .table_btn input{
+        width: 150px;
+        height: 80px;
+        font-size: 34px;
+    }
+    .table_name h3,
+    .table_name p,
+    .table_count h4,
+    .table_count p{
+        font-size: 34px;
+    }
+    .number{
+        font-size: 26px;
+        width: 43px;
+        height: 43px;
+        line-height: 40px;
+        left: -44px;
+    }
+    .table_logo{
+        width: 140px;
+        padding-top: 20px;
+    }
+    .portfolioWorth {
+        margin-left: 8vw;
+    }
+    /*end index*/
+    /*index2*/
+    .bottom_block .number2{
+        left: -10px;
+        font-size: 40px
+    }
+    /*end index2*/
+    /*index4*/
+    #pie .changePercent p,
+    .totalSum span{
+        font-size: 50px;
+    }
+    .totalSum p,
+    .change{
+        font-size: 26px;
+    }
+    .count{
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    .ct-chart-donut .ct-label, .ct-chart-pie .ct-label{
+        font-size: 26px;
+    }
+    #pie {
+        margin-bottom: 60px;
+    }
+    /*end index4*/
+}/*end 1080*/
+
+@media only screen and (max-width: 1024px){
+    /*index3*/
+    .log_in_wraper{
+        padding-top: 470px;
+    }
+    /*end index3*/
+    /*index4*/
+    #pie .changePercent p, .totalSum span {
+        font-size: 47px;
+    }
+    .count{
+        margin-top: 45px;
+        margin-bottom: 55px;
+    }
+     .ct-chart-donut .ct-label, .ct-chart-pie .ct-label{
+        font-size: 24px;
+    }
+    /*end index4*/
+}/*end 1024*/
+@media only screen and (max-width: 990px){
+    .percent{
+        top: 192px;
+    }
+    .return{
+        top: 259px;
+    }
+    .subRightBar p, .subLeftBar p{
+        font-size: 20px;
+    }
+    .subLeftBar{
+        float: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+    .subRightBar{
+        float: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+    .chart{
+        text-align: center;
+        float: none;
+    }
+    .chart canvas{
+        margin-top: 30px;
+    }
+       
+}/*end 990*/
+@media only screen and (max-width: 920px){
+    
+    /*index*/
+    .menu ul li a{
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    header{
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .photo img{
+        width: 90%;
+    }
+    header h2{
+        font-size: 34px;
+    }
+    header p{
+        font-size: 25px;
+    }
+    .menu ul li a{
+        font-size: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .stoks_wraper {
+        max-width: 680px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .table_name h3, .table_name p, .table_count h4, .table_count p {
+        font-size: 32px;
+    }
+    .table_logo img{
+        width:60%;
+    }
+    .table_btn input{
+        width: 140px;
+    }
+    /*end index*/
+    /*index2*/
+    .stoks2_h1{
+        font-size: 55px;
+    }
+    .stoks_wraper2 .number_top{
+        font-size: 36px;
+        line-height: 47px;
+        top: 41px;
+        height: 50px;
+        padding-left: 26px;
+    }
+    .stoks_wraper2 .table_icons {
+        padding-top: 44px;
+    }
+    .stoks_wraper2 .number2{
+        font-size: 38px;
+    }
+    .stoks_wraper2 .table_logo{
+        padding-left: 37px;
+    }
+    /*end index2*/
+    /*index3*/
+    .log_in_wraper h2{
+        font-size: 125px;
+        letter-spacing: -10px;
+    } 
+    .log_in_wraper h3{
+        font-size: 43px;
+    }
+    .login_inputs{
+        max-width: 500px;
+    }
+    .login_inputs input{
+        max-width: 364px;
+        font-size: 39px;
+    }
+    .log_in_wraper h3 {
+        font-size: 40px;
+        margin-top: 25px;
+        max-width: 600px;
+        margin-bottom: 140px;
+    }
+    .log_in_wraper{
+        padding-bottom: 200px;
+    }
+    .login_inputs input{
+        max-width: 334px;
+        font-size: 37px;
+        height: 98px;
+        padding-left: 75px;
+    }
+    .facebook{
+        background-size: 5%;
+            background-position: 31px center;
+    }
+    .google{
+        background-size: 9%;
+        background-position: 23px center;
+    }
+    .login_inputs {
+        max-width: 429px;
+    }
+    /*end index3*/
+    /*index4*/
+    #pie .changePercent p, .totalSum span {
+        font-size: 45px;
+    }
+    .totalSum p, .change {
+        font-size: 23px;
+    }
+    .imgArrowUp{
+        width: 80px;
+        height: 80px;
+        background-size: contain;
+    }
+    .totalSum{
+        padding-left: 25px;
+    }
+    .changePercent{
+        padding-right: 25px;
+    }
+    .changePercent{
+        margin-right: 0;
+    }
+    .count{
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+     .ct-chart-donut .ct-label, .ct-chart-pie .ct-label{
+        font-size: 20px;
+    }
+    #pie {
+        margin-bottom: 50px;
+    }
+    /*end index4*/
+    /*index6*/
+    .buy_sell_wraper h2{
+        font-size: 55px;
+    }
+    .blockLogo img{
+        width: 150px;
+    }
+    .blockLogoImg{
+        width: 100px;
+        height: 100px;
+        left: -40px;
+    }
+    .sell{
+        height: 100px;
+    }
+    /*end index6*/
+}/*end 920*/
+@media only screen and (max-width: 850px){
+    .chart{
+        margin-bottom: 224px;
+    } 
+    .chart canvas {
+        margin-top: 80px;
+    }
+    .rightBarInner, .leftBarInner, .top{
+        font-size: 20px;
+    }
+    .rightBar, .leftBar{
+        width: 43px;
+    }
+    .leftBarInner:before{
+        border-left: 22px solid transparent;
+        border-right: 22px solid transparent;
+    }
+    .subRightBar p, .subLeftBar p {
+        font-size: 18px;
+    }
+    .subRightBar, .subLeftBar{
+        width: 120px;
+    }
+}/*end 850*/
+@media only screen and (max-width: 768px){
+    
+    /*index*/
+    .stoks_wraper{
+        max-width: 580px;
+    }
+    
+    .table_logo {
+        width: 100px;
+        padding-bottom: 10px;
+    }
+    .number {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        left: -37px;
+        top: 38px;
+    }
+    .table_name h3, .table_name p, .table_count h4, .table_count p {
+        font-size: 27px;
+    }
+    header h2 {
+        font-size: 30px;
+    }
+    header p {
+        font-size: 23px;
+    }
+    .portfolioWorth {
+        margin-left: 30px;
+    }
+    .menu ul li a {
+        font-size: 23px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+    .photo img {
+        width: 80%;
+    }
+    .photo{
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+    .portfolioWorth, .balance, .proTrader {
+        margin-top: 40px;
+    }
+    .table_name h3,
+    .table_count h4{
+        margin-top: 26px;
+    }
+    .table_btn input {
+        height: 60px;
+        font-size: 23px;
+        margin-top: 22px;
+        width: 120px;
+    }
+    /*end index*/
+    /*index2*/
+    .stoks2_h1{
+        font-size: 50px;
+    }
+    .stoks2_h2{
+        font-size: 25px;
+    }
+    .stoks_wraper2 .number_top {
+        font-size: 28px;
+        line-height: 35px;
+        top: 37px;
+        height: 35px;
+        width: 50px;
+        padding-left: 16px;
+    }
+    .stoks_wraper2 .table_logo {
+        padding-left: 30px;
+    }
+    .stoks_wraper2 .number2 {
+        font-size: 32px;
+        top: 37px;
+        left: 4px;
+    }
+    .stoks_wraper2 .table_icons span{
+        font-size: 20px;
+    }
+    .bottom_block .number2{
+        left: -13px;
+        font-size: 29px;
+    }
+    /*end index2*/
+    /*index3*/
+    .log_in_wraper{
+        background-size: contain;
+    }
+    /*end index3*/
+    /*index4*/
+        .star {
+        width: 25px;
+        height: 25px;
+        padding-left: 5px;
+    }
+    #pie .changePercent p, .totalSum span {
+        font-size: 35px;
+    }
+    .totalSum p, .change {
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    .count {
+        margin-top: 35px;
+        margin-bottom: 45px;
+    }
+    .ct-chart-donut .ct-label, .ct-chart-pie .ct-label {
+        font-size: 18px;
+    }
+    #pie {
+        margin-bottom: 40px;
+    }
+    /*end index4*/
+    /*index6*/
+    .buy_sell_wraper h2{
+        font-size: 50px;
+    }
+    .blockLogo img{
+        width: 120px;
+    }
+    .blockLogoImg {
+        width: 80px;
+        height: 80px;
+        left: 20px;
+        top: 30px;
+    }
+    .blockLogoLine{
+        left: 20px;
+        height: 4px;
+        width: 40%;
+    }
+    .sell{
+        height: 90px;
+        font-size: 40px;
+    }
+    .back{
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .blockPie{
+        margin-top: 60px;
+    }
+    /*end index6*/
+}/*end 768*/
+@media only screen and (max-width: 700px){
+    .percent{
+        top: 172px;
+        font-size: 50px;
+    }
+    .return {
+        top: 221px;
+        font-size: 20px;
+    }
+    .rightBar, .leftBar {
+        width: 30px;
+        height: 300px;
+        margin-top: 40px;
+    }
+    .rightBarInner, .leftBarInner, .top {
+        font-size: 14px;
+    }
+    .chart {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    .leftBarInner{
+        top: 150px;
+    }   
+    .top{
+        height: 150px;
+    } 
+    .buy{
+        top: 153px;
+    }
+    .leftBarInner:before {
+        border-left: 15px solid transparent;
+        border-right: 17px solid transparent;
+        border-top: 13px solid red;
+        bottom: -13px;
+    }
+    .subRightBar p, .subLeftBar p {
+        font-size: 16px;
+    }
+    .subRightBar, .subLeftBar {
+        width: 110px;
+    }
+    .subLeftBar.active .buy {
+        top: 180px;
+    }
+}/*end 700*/
+@media only screen and (max-width: 680px){
+    
+    /*index*/
+    .stoks_wraper {
+        max-width: 480px;
+    }
+    .table_logo {
+        width: 90px;
+    }
+    .number {
+        font-size: 19px;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        left: -37px;
+        top: 32px;
+    }
+    .table_name h3, .table_name p, .table_count h4, .table_count p {
+        font-size: 23px;
+    }
+    .table_btn input {
+        height: 60px;
+        font-size: 21px;
+        margin-top: 19px;
+        width: 100px;
+    }
+    .photo img {
+        width: 70%;
+    }
+    header h2 {
+        font-size: 26px;
+    }
+    header p {
+        font-size: 22px;
+    }
+    .menu ul li a {
+        font-size: 21px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 27px;
+        padding-bottom: 22px;
+    }
+    .proTrader {
+        margin-left: 0px;
+    }
+    /*end index*/
+    /*index2*/
+    .stoks2_h1{
+        font-size: 40px;
+    }
+    .stoks2_h2{
+        font-size: 20px;
+    }
+    /*end index2*/
+    /*index3*/
+    .log_in_wraper h2 {
+        font-size: 110px;
+        letter-spacing: -9px;
+    }
+    .log_in_wraper h3 {
+        font-size: 35px;
+        margin-top: 20px;
+        max-width: 500px;
+        margin-bottom: 100px;
+    }
+    .login_inputs input {
+        max-width: 292px;
+        font-size: 31px;
+        height: 85px;
+        padding-left: 75px;
+        margin-bottom: 25px;
+    }
+    .login_inputs {
+        max-width: 387px;
+    }
+    .log_in_wraper {
+        padding-top: 370px;
+        padding-bottom: 100px;
+        background-size: cover;
+    }
+    /*end index3*/
+    /*index4*/
+    .ct-chart-donut .ct-label, .ct-chart-pie .ct-label {
+        font-size: 16px;
+    }
+    /*end index4*/
+}/*end 680*/
+@media only screen and (max-width: 600px){
+    /*index*/
+    .photo{
+        width: 100px;
+        margin-left: 15px;
+    }
+    .photo img {
+        width: 85%;
+    }
+    header h2 {
+        font-size: 25px;
+    }
+    header p {
+        font-size: 21px;
+    }
+    .menu ul li a {
+        font-size: 19px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .stoks_h{
+        margin-bottom: 23px;
+        font-size: 27px;
+    }
+    .stoks_wraper{
+        padding-top: 25px;
+        margin-top: 37px;
+        max-width: 420px;
+    }
+    .table_logo {
+        width: 60px;
+    }
+    .table_logo img {
+        width: 80%;
+    }
+    .table_name{
+        padding-left: 10px;
+    }
+    .number {
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        left: -37px;
+        top: 30px;
+    }
+    .table_btn input {
+        height: 54px;
+        font-size: 18px;
+        margin-top: 19px;
+        width: 90px;
+        border: 2px solid #4cabd7;
+    }
+    .table_name h3, .table_name p, .table_count h4, .table_count p {
+        font-size: 21px;
+        margin-bottom: 2px;
+    }
+    .portfolioWorth, .balance, .proTrader {
+        margin-top: 35px;
+    }
+    .portfolioWorth {
+        margin-left: 26px;
+    }
+    /*end index*/
+    /*index2*/
+    .stoks2_h1{
+        font-size: 35px;
+    }
+    .stoks_wraper2{
+        padding-top: 0;
+    }
+    .stoks_wraper2 .table_logo img{
+        border: 3px solid #e5eaed;
+        width: 100%;
+    }
+    .stoks_wraper2 .table_count{
+        padding-left: 15px;
+    }
+    .stoks_wraper2 .table_icons {
+        padding-top: 34px;
+    }
+    .bottom_block .number2 {
+        font-size: 26px;
+    }
+    /*end index2*/
+    /*index3*/
+    .log_in_wraper h2 {
+        font-size: 100px;
+        letter-spacing: -8px;
+    }
+    .log_in_wraper h3 {
+        font-size: 30px;
+        margin-top: 15px;
+        max-width: 450px;
+        margin-bottom: 80px;
+        line-height: 46px;
+    }
+    .login_inputs input {
+        max-width: 270px;
+        font-size: 27px;
+        height: 70px;
+        padding-left: 71px;
+        margin-bottom: 20px;
+    }
+    .login_inputs {
+        max-width: 361px;
+    }
+    .log_in_wraper{
+        padding-top: 300px;
+    }
+    /*end index3*/
+    /*index4*/
+        .star {
+        width: 20px;
+        height: 20px;
+        padding-left: 5px;
+    }
+    #pie .changePercent p, .totalSum span {
+        font-size: 30px;
+    }
+    .totalSum p, .change {
+        font-size: 18px;
+        margin-top: 2px;
+    }
+    .count {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .ct-chart-donut .ct-label, .ct-chart-pie .ct-label {
+        font-size: 14px;
+    }
+    /*end index4*/
+    /*index6*/
+    .buy_sell_wraper h2{
+        font-size: 40px;
+    }
+    .blockLogo img{
+        width: 100px;
+    }
+    .blockLogoImg {
+        width: 70px;
+        height: 70px;
+        left: 50px;
+        top: 20px
+    }
+    .blockLogoLine{
+        left: 80px;
+        height: 3px;
+    }
+    .sell{
+        height: 80px;
+        font-size: 35px;
+    }
+    .back{
+        font-size: 35px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .blockPie {
+        margin-top: 50px;
+    }
+    .blockPie{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .subRightBar, .subLeftBar {
+        width: 90px;
+    }
+    /*end index6*/
+}/*end 600*/
+@media only screen and (max-width: 550px){
+    /*index3*/
+    .log_in_wraper h2 {
+        font-size: 90px;
+        letter-spacing: -7px;
+    }
+    /*end index3*/
+    /*index6*/
+    .subRightBar, .subLeftBar {
+        width: 80px;
+    }
+    /*end index6*/
+}/*end 550*/
+@media only screen and (max-width: 530px){
+    /*index*/
+    .photo {
+        width: 90px;
+    }
+    header h2 {
+        font-size: 22px;
+    }
+    header p {
+        font-size: 19px;
+    }
+    .menu ul li a {
+        font-size: 19px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #fff;
+    }
+    .menu ul li a.active,
+    .menu ul li a:hover{
+        border-bottom: 2px solid #4cabd7;
+    }
+    .stoks_h {
+        margin-bottom: 19px;
+        font-size: 24px;
+    }
+    .stoks_wraper {
+        padding-top: 20px;
+        margin-top: 29px;
+        max-width: 360px;
+    }
+    .table_btn input {
+        height: 49px;
+        font-size: 17px;
+        margin-top: 20px;
+        width: 70px;
+        border: 1px solid #4cabd7;
+    }
+    .table_name h3, .table_name p, .table_count h4, .table_count p {
+        font-size: 19px;
+    }
+    .portfolioWorth {
+        margin-left: 20px;
+    }
+    /*end index*/
+    /*index2*/
+    .stoks2_h1{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .stoks2_h2 {
+        font-size: 19px;
+    }
+    .stoks_wraper2 .table_logo img{
+        border: 5px solid #e5eaed;
+    }
+    .stoks_wraper2 .td_icons{
+        min-width: 130px;
+    }
+    .stoks_wraper2 .table_likes {
+        width: 7.1vw;
+        max-width: 37px;
+    }
+    .stoks_wraper2 .table_views {
+        width: 11.5vw;
+        max-width: 45px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .stoks_wraper2 .table_people {
+        width: 7.59vw;
+        max-width: 33px;
+    }
+    .stoks_wraper2 .table_icons span {
+        font-size: 16px;
+    }
+    .stoks_wraper2 .table_icon{
+        padding-top: 30px;
+        background-size: 55%;
+    }
+    .stoks_wraper2 .number_top{
+        font-size: 21px;
+        line-height: 34px;
+        padding-left: 14px;
+    }
+    .stoks_wraper2 .number2 {
+        font-size: 25px;
+        top: 37px;
+        left: 3px;
+    }
+    .stoks_wraper2{
+        padding-top: 0;
+    }
+    .wrap .bottom_block .number2{
+        left: -13px;
+    }
+    /*end index2*/
+    /*index3*/
+    .log_in_wraper h2 {
+        font-size: 79px;
+        letter-spacing: -6px;
+    }
+    .log_in_wraper {
+        padding-top: 250px;
+    }
+    .log_in_wraper h3 {
+        font-size: 25px;
+        margin-top: 10px;
+        max-width: 350px;
+        margin-bottom: 60px;
+        line-height: 41px;
+    }
+    .login_inputs input {
+        max-width: 240px;
+        font-size: 24px;
+        height: 60px;
+        padding-left: 71px;
+        margin-bottom: 15px;
+    }
+    .login_inputs {
+        max-width: 331px;
+    }
+    /*end index3*/
+    /*index4*/
+    .ct-chart-donut .ct-label, .ct-chart-pie .ct-label {
+        font-size: 13px;
+    }
+    /*end index4*/
+    /*index6*/
+    .subRightBar, .subLeftBar {
+        width: 65px;
+    }
+    /*end index6*/
+}/*end 530*/
+@media only screen and (max-width: 480px){
+    /*index*/
+    .photo {
+        width: 85px;
+    }
+    header h2 {
+        font-size: 20px;
+    }
+    header p {
+        font-size: 17px;
+    }
+    .menu ul li a {
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 17px;
+        padding-bottom: 12px;
+    }
+    .stoks_h {
+        font-size: 20px;
+    }
+    /*end index*/
+    /*index2*/
+    .stoks2_h1{
+        font-size: 29px;
+        margin-top: 40px;
+    }
+    .stoks2_h2 {
+        font-size: 18px;
+    }
+    /*end index2*/
+    /*index4*/
+    #pie .changePercent p, .totalSum span {
+        font-size: 25px;
+    }
+    .totalSum p, .change {
+        font-size: 16px;
+    }
+    .count {
+        margin-top: 25px;
+        margin-bottom: 45px;
+    }
+    /*end index4*/
+    /*index6*/
+    .buy_sell_wraper h2{
+        font-size: 30px;
+    }
+    .blockLogo img{
+        width: 80px;
+    }
+    .blockLogoImg {
+        width: 60px;
+        height: 60px;
+        left: 50px;
+        top: 14px;
+    }
+    .blockLogoLine{
+        width: 30%;
+    }
+    .sell {
+        height: 70px;
+        font-size: 30px;
+    }
+    .back{
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .blockPie {
+        margin-top: 40px;
+    }
+    .percent{
+        top: 142px;
+        font-size: 40px;
+    }
+    .return {
+        top: 181px;
+        font-size: 17px;
+    }
+    .rightBar, .leftBar {
+        width: 20px;
+        height: 200px;
+    }
+    .rightBarInner, .leftBarInner, .top {
+        font-size: 10px;
+    }
+    .subRightBar p, .subLeftBar p {
+        font-size: 15px;
+    }
+    .leftBarInner:before {
+        border-left: 11px solid transparent;
+        border-right: 11px solid transparent;
+    }
+    .leftBarInner {
+        top: 100px;
+    }
+    .top {
+        height: 100px;
+    }
+    .buy {
+        top: 106px;
+    }
+    .subLeftBar.active .buy {
+        top: 130px;
+    }
+    .chart {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .subRightBar{
+        right: -10px
+    }
+    .subLeftBar{
+        left:-10px;
+    }
+    /*end index6*/
+}/*end 480*/
+@media only screen and (max-width: 440px){
+    /*index*/
+    header h2 {
+        font-size: 18px;
+    }
+    .balance {
+        margin-right: 20px;
+    }
+    .stoks_h {
+        font-size: 18px;
+    }
+    .stoks_wraper{
+        max-width: 320px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .table_name h3, .table_name p, .table_count h4, .table_count p {
+        font-size: 17px;
+    }
+    .table_btn input{
+        width: 60px;
+    }
+    .number{
+        left: -31px;
+        font-size: 16px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    .table_logo {
+        width: 55px;
+    }
+    .table_name {
+        padding-left: 6px;
+    }
+    .portfolioWorth {
+        margin-left: 15px;
+    }
+    /*end index*/
+    /*index2*/
+    .stoks_wraper2 .table_logo {
+        padding-left: 19px;
+    }
+    .stoks_wraper2 .number_top {
+        font-size: 18px;
+        line-height: 34px;
+        padding-left: 10px;
+        top: 34px;
+        left: -6px;
+    }
+    /*end index2*/
+    /*index3*/
+    .log_in_wraper {
+        padding-top: 272px;
+        padding-bottom: 60px;
+    }
+    .log_in_wraper h2 {
+        font-size: 70px;
+        letter-spacing: -5px;
+    }
+    .log_in_wraper h3 {
+        font-size: 22px;
+        margin-top: 10px;
+        max-width: 300px;
+        margin-bottom: 50px;
+        line-height: 36px;
+    }
+    .login_inputs input {
+        max-width: 190px;
+        font-size: 20px;
+        height: 50px;
+        padding-left: 67px;
+        margin-bottom: 15px;
+    }
+        .login_inputs {
+        max-width: 281px;
+    }
+    /*end index3*/
+    /*index4*/
+    .ct-chart-donut .ct-label, .ct-chart-pie .ct-label {
+        font-size: 11px;
+    }
+    /*end index4*/
+}/*end 440*/
+@media only screen and (max-width: 414px){
+    .percent {
+        top: 132px;
+        font-size: 35px;
+    }
+    .return {
+        top: 171px;
+        font-size: 16px;
+    }
+    .subLeftBar {
+        left: -15px;
+    }
+    .subRightBar {
+        right: -15px;
+    }
+}
+@media only screen and (max-width: 400px){
+    /*index*/
+    .photo {
+        width: 75px;
+        margin-left: 10px;
+    }
+    .balance {
+        margin-right: 10px;
+    }
+    header h2 {
+        font-size: 16px;
+    }
+    header p {
+        font-size: 15px;
+    }
+    .menu ul li a {
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .stoks_h {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    .stoks_wraper {
+        max-width: 290px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .table_name h3, .table_name p, .table_count h4, .table_count p {
+        font-size: 16px;
+    }
+    .table_btn input {
+        width: 55px;
+        height: 45px;
+        font-size: 15px;
+    }
+    .number {
+        left: -24px;
+        font-size: 15px;
+        width: 23px;
+        height: 23px;
+        line-height: 23px;
+    }
+    .table_name {
+        padding-left: 3px;
+    }
+    /*end index*/
+    /*index2*/
+    .stoks2_h1{
+        font-size: 27px;
+        margin-top: 30px;
+    }
+    .stoks2_h2 {
+        font-size: 18px;
+    }
+    .stoks_wraper2 .td_icons {
+        min-width: 110px;
+    }
+    .stoks_wraper2 .table_views{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .stoks_wraper2 .table_icons span {
+        font-size: 14px;
+    }
+    .stoks_wraper2 .table_logo img{
+        border: 0;
+        margin-right: 0px;
+    }
+    .stoks_wraper2 .number_top {
+        line-height: 29px;
+        height: 28px;
+    }
+    .stoks_wraper2 .table_count {
+        padding-left: 6px;
+    }
+    .stoks_wraper2 .table_count h4 {
+        margin-top: 38px;
+    }
+    .stoks_wraper2 .table_icon {
+        padding-top: 22px;
+    }
+    .stoks_wraper2 .table_icons {
+        padding-top: 37px;
+    }
+    .stoks_wraper2 .number2 {
+        font-size: 21px;
+        left: 0px;
+    }
+    .wrap .bottom_block .number2 {
+        left: -8px;
+        font-size: 15px;
+        font-family: "CALIBRI";
+    }
+    /*end index2*/
+    /*index3*/
+    .log_in_wraper h2 {
+        font-size: 60px;
+        letter-spacing: -4px;
+    }
+    .log_in_wraper h3 {
+        font-size: 20px;
+        margin-top: 8px;
+        max-width: 270px;
+        margin-bottom: 40px;
+        line-height: 30px;
+    }
+    .login_inputs input{
+        max-width: 180px;
+        font-size: 18px;
+    }
+    .login_inputs {
+        max-width: 267px;
+    }
+    /*end index3*/
+    /*index6*/
+    .buy_sell_wraper h2{
+        font-size: 25px;
+    }
+    .blockLogo img{
+        width: 80px;
+    }
+    .blockLogoImg {
+        width: 50px;
+        height: 50px;
+        top: 18px;
+    }
+    .blockLogoLine{
+        width: 30%;
+    }
+    .sell {
+        height: 60px;
+    }
+    /*end index6*/
+}/*end 400*/
+@media only screen and (max-width: 375px){
+    /*index3*/
+    .log_in_wraper {
+        padding-top: 238px;
+    }
+    /*end index3*/
+    /*index4*/
+    .totalSum p, .change {
+        font-size: 15px;
+    }
+    .totalSum {
+        padding-left: 15px;
+    }
+    .changePercent {
+        margin-right: 0;
+    }
+    .count {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    /*end index4*/
+}/*end 375*/
+@media only screen and (max-width: 350px){
+    /*index*/
+    .portfolioWorth {
+        margin-left: 6px;
+    }
+    .balance {
+        margin-right: 6px;
+    }
+    .photo {
+        width: 68px;
+        margin-left: 6px;
+    }
+    .photo img {
+        width: 90%;
+    }
+    .menu ul li a {
+        font-size: 15px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 13px;
+        padding-bottom: 8px;
+    }
+    .stoks_h {
+        margin-bottom: 15px;
+    }
+    .table_btn input {
+        width: 50px;
+        height: 39px;
+        font-size: 13px;
+    }
+    .table_logo {
+        width: 50px;
+    }
+    .stoks_wraper {
+        max-width: 274px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .table_name h3, .table_name p, .table_count h4, .table_count p {
+        font-size: 15px;
+    }
+    .number {
+        left: -18px;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 21px;
+    }
+    .table_logo img {
+        margin-left: 5px;
+    }
+    .table_name {
+        padding-left: 5px;
+    }
+    header h2 {
+        font-size: 15px;
+    }
+    /*end index*/
+    /*index2*/
+    .stoks2_h1{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .stoks2_h2 {
+        font-size: 17px;
+    }
+    .stoks_wraper2 .number_top {
+        line-height: 24px;
+        height: 24px;
+        font-size: 16px;
+        left: 0px;
+        top: 31px;
+    }
+    .stoks_wraper2 .table_logo {
+        padding-left: 17px;
+        width: 49px;
+    }
+    .stoks_wraper2 .td_icons {
+        min-width: 100px;
+    }
+    .stoks_wraper2 .table_count {
+        padding-left: 10px;
+    }
+    .stoks_wraper2 .table_count h4 {
+        margin-top: 36px;
+    }
+    .stoks_wraper2 .table_icons span {
+        font-size: 12px;
+    }
+    .stoks_wraper2 .table_icons {
+        padding-top: 36px;
+        margin-right: 7px;
+    }
+    .stoks_wraper2 .table_icon {
+        padding-top: 18px;
+    }
+    .stoks_wraper2 .number2 {
+        font-size: 19px;
+        left: 2px;
+    }
+    .wrap .bottom_block .number2 {
+        left: -1px;
+    }
+    .bottom_block .table_logo{
+        padding-left: 22px;
+    }
+    /*end index2*/
+    /*index3*/
+    .log_in_wraper h2 {
+        font-size: 50px;
+        letter-spacing: -3px;
+    }
+    
+    .log_in_wraper {
+        padding-top: 172px;
+    }
+    .log_in_wraper h3 {
+        font-size: 18px;
+        margin-top: 8px;
+        max-width: 260px;
+        margin-bottom: 35px;
+        line-height: 27px;
+    }
+    .login_inputs input {
+        max-width: 160px;
+        font-size: 17px;
+        height: 46px;
+    }
+    .login_inputs {
+        max-width: 247px;
+    }
+    /*end index3*/
+    /*index4*/
+    #pie .changePercent p, .totalSum span {
+        font-size: 23px;
+    }
+    .totalSum p, .change {
+        font-size: 14px;
+    }
+    /*end index4*/
+    /*index6*/
+    .blockLogoImg {
+        width: 40px;
+        height: 40px;
+        top: 25px;
+    }
+    .sell {
+        height: 50px;
+        font-size: 25px;
+    }
+    .back{
+        font-size: 25px;
+    }
+    /*end index6*/
+}/*end 350*/

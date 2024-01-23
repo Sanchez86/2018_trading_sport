@@ -1,0 +1,299 @@
+/*header*/
+header{
+	background-color: #4cabd7;
+	height: 179px;
+	width:100%;
+}
+.photo{
+	margin-top: 25px;
+    margin-left: 31px;
+}
+header h2{
+	font-family: "CALIBRIB";
+	font-size: 44px;
+	letter-spacing: 0.4px;
+	color:#ffffff;
+}
+header p{
+	font-family: "CALIBRIL";
+	font-size: 30px;
+	letter-spacing: 0.2px;
+	color:#ffffff;
+	line-height: 25px;
+	text-align: left;
+}
+.portfolioWorth, .balance{
+	margin-top: 58px;
+}
+.balance{
+	margin-right: 42px;
+}
+.balance p{
+	text-align: right;	
+}
+.proTrader{
+	margin-left: 30px;
+	margin-top: 58px;
+	
+}
+.portfolioWorth{
+	margin-left: 11.9vw;
+}
+/* end header*/ 
+
+/*menu*/
+.menu{
+	background-color: #ffffff;
+}
+.menu ul li{
+	display: block;
+	float: left;
+	width:33%;
+	text-align: center;
+}
+.menu ul li a{
+	font-family: "CALIBRIL";
+	color:#4cabd7;
+	font-size: 30px;
+	text-decoration: none;
+	padding-top: 45px;
+    padding-bottom: 40px;
+	padding-left: 62px;
+    padding-right: 62px;
+    display: inline-block;
+	border-bottom: 5px solid #fff;
+    transition: all 1s;
+}
+.menu ul li a.active{
+	transition:all 0.5s;
+	font-family: "CALIBRI";
+	border-bottom: 5px solid #4cabd7;
+}
+.menu ul li a:hover{
+	transition:all 0.5s;
+	border-bottom: 5px solid #4cabd7;
+}
+/*end menu*/
+
+
+@media only screen and (max-width: 1080px){
+    
+    .portfolioWorth {
+        margin-left: 8vw;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .menu ul li a{
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    header{
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .photo img{
+        width: 90%;
+    }
+    header h2{
+        font-size: 34px;
+    }
+    header p{
+        font-size: 25px;
+    }
+    .menu ul li a{
+        font-size: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    
+    header h2 {
+        font-size: 30px;
+    }
+    header p {
+        font-size: 23px;
+    }
+    .portfolioWorth {
+        margin-left: 30px;
+    }
+    .menu ul li a {
+        font-size: 23px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+    .photo img {
+        width: 80%;
+    }
+    .photo{
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+    .portfolioWorth, .balance, .proTrader {
+        margin-top: 40px;
+    }
+    .balance {
+        margin-right: 25px;
+    }
+}
+
+@media only screen and (max-width: 680px){
+    .photo img {
+        width: 70%;
+    }
+    header h2 {
+        font-size: 26px;
+    }
+    header p {
+        font-size: 22px;
+    }
+    .menu ul li a {
+        font-size: 21px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 27px;
+        padding-bottom: 22px;
+    }
+    .proTrader {
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .photo{
+        width: 100px;
+        margin-left: 10px;
+    }
+    .photo img {
+        width: 85%;
+    }
+    header h2 {
+        font-size: 25px;
+    }
+    header p {
+        font-size: 21px;
+    }
+    .menu ul li a {
+        font-size: 19px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    
+    .portfolioWorth, .balance, .proTrader {
+        margin-top: 35px;
+    }
+    .portfolioWorth {
+        margin-left: 26px;
+    }
+}
+@media only screen and (max-width: 530px){
+    .photo {
+        width: 90px;
+    }
+    header h2 {
+        font-size: 22px;
+    }
+    header p {
+        font-size: 19px;
+    }
+    .menu ul li a {
+        font-size: 19px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #fff;
+    }
+    .menu ul li a.active,
+    .menu ul li a:hover{
+        border-bottom: 2px solid #4cabd7;
+    }
+   
+    .portfolioWorth {
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .photo {
+        width: 85px;
+    }
+    header h2 {
+        font-size: 20px;
+    }
+    header p {
+        font-size: 17px;
+    }
+    .menu ul li a {
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 17px;
+        padding-bottom: 12px;
+    }
+}
+@media only screen and (max-width: 440px){
+    header h2 {
+        font-size: 18px;
+    }
+    .balance {
+        margin-right: 10px;
+    }
+    .portfolioWorth {
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .photo {
+        width: 72px;
+        margin-left: 10px;
+    }
+    .balance {
+        margin-right: 10px;
+    }
+    header h2 {
+        font-size: 16px;
+    }
+    header p {
+        font-size: 15px;
+    }
+    .menu ul li a {
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .portfolioWorth {
+        margin-left: 9px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .portfolioWorth {
+        margin-left: 6px;
+    }
+    .balance {
+        margin-right: 6px;
+    }
+    .photo {
+        width: 60px;
+        margin-left: 6px;
+    }
+    .photo img {
+        width: 90%;
+    }
+    .menu ul li a {
+        font-size: 15px;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 13px;
+        padding-bottom: 8px;
+    }
+    header h2 {
+        font-size: 15px;
+    }
+}

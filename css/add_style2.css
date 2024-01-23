@@ -1,0 +1,400 @@
+header .wrap_flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+header .block_flex{
+	display: block;
+	margin: inherit;
+    width: 33.3%;
+    text-align: center;
+}
+header .portfolioWorth p{
+	text-align: center;
+}
+header .balance{
+	text-align: right;
+}
+header .balance,
+header .portfolioWorth{
+	margin-top: 58px;
+}
+header .balance h2,
+header .balance p{
+	padding-right: 42px;
+}
+
+/*-----*/
+.stoks_wraper{
+	position: relative;
+}
+.sub_stoks_wraper .table_count h4,
+.sub_stoks_wraper .table_count p{
+	display: inline-block;
+}
+.sub_stoks_wraper .table_count h4{
+	margin-top: 0;
+}
+.sub_stoks_wraper .table_graph{
+	vertical-align: middle;
+    text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 140px;
+}
+.sub_stoks_wraper .table_graph img{
+	width: 100%;
+}
+.dropdown_sort_by{
+	color: #4d5a64;
+	font-size: 30px;
+    font-family: "CALIBRIL";
+    margin-bottom: 26px;
+    float: left;
+    cursor: pointer;
+}
+.dropdown_sort_by strong{
+    color: #00adda;
+    font-family: "Calibri-BoldItalic";
+    text-decoration: none;
+    letter-spacing: -0.20px;
+    display: inline-block;
+    padding-left: 6px;
+    
+}
+.dropdown_sort_by span{
+	background-image: url(../images/arrow-down.png);
+	background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    display: inline-block;
+    width: 29px;
+    height: 17px;
+    margin-left: 12px;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+.dropdown_sort_by span.active{
+	-webkit-transform: rotate(180deg);
+	        transform: rotate(180deg);
+}
+.sort_by_date{
+	float: right;
+    margin-top: -8px;
+}
+.sort_by_date a{
+	color: #4d5a64;
+	font-size: 44px;
+    font-family: "CALIBRIL";
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 9px;
+    border-top: 5px solid rgba(0, 0, 0, 0);
+}
+.sort_by_date a.active{
+	color: #4cabd7;
+	border-top: 5px solid #4cabd7;
+	font-family: "CALIBRIB";	
+}
+.content_sort_by{
+	display: none;
+	position: absolute;
+    top: 83px;
+    left: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    box-shadow: 0 0 70px 10px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 281px;
+}
+.content_sort_by li{
+	padding-right: 18px;
+    padding-left: 34px;
+}
+.content_sort_by a{
+	color: #4d5a64;
+	font-size: 30px;
+    font-family: "CALIBRIL";
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 80px;
+    display: block;
+}
+.content_sort_by a.active{
+    color: #00adda;
+    font-family: "Calibri-BoldItalic";
+	background-image: url(../images/selected.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: inherit;
+}
+.content_sort_by a:hover{
+	color: #00adda;
+}
+.content_sort_by.active{
+	display: block;
+}
+@media only screen and (min-width: 1080px) {
+    .content_sort_by {
+        top: 50px;
+    }
+    .number {
+        font-size: 14px;
+        width: 22px;
+        height: 22px;
+        top: 50%;
+        left: -45px;
+        margin-top: -11px;
+        line-height: 22px;
+    }
+
+    .table_logo {
+        width: 50px;
+        text-align: left;
+    }
+
+    .table_logo img {
+        width: 90%;
+    }
+
+    .table_name h3,
+    .sub_stoks_wraper .table_count h4,
+    .sub_stoks_wraper .table_count p {
+        font-size:14px;
+    }
+    .table_name h3 {
+        margin-top: 18px;
+        margin-bottom:0;
+    }
+    .table_btn input {
+        border-width: 2px;
+        font-size: 14px;
+        width: 59px;
+        height: 40px;
+        margin-top: 11px;
+        border-radius: 3px;
+    }
+    .sub_stoks_wraper .table_graph img {
+        width: 30%;
+    }
+    .dropdown_sort_by {
+        font-size: 14px;
+    }
+    .dropdown_sort_by span {
+        width: 15px;
+        height: 10px;
+        margin-left: 10px;
+    }
+    .sort_by_date a,
+    .sort_by_date a.active {
+        padding-top: 17px;
+        font-size: 14px;
+        border-width: 2px;
+    }
+    .stoks_wraper {
+        margin-top: 13px;
+    }
+    .dropdown_sort_by {
+        margin-bottom: 10px;
+    }
+    .table_logo {
+        padding-top: 6px;
+        padding-bottom: 0;
+    }
+    .sub_stoks_wraper .table_graph {
+        text-align: right;
+    }
+    .content_sort_by li {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .dropdown_sort_by .content_sort_by a {
+        font-size: 12px;
+        line-height: 28px;
+        background-size: 9%;
+    }
+    .content_sort_by {
+        max-width: 160px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
+    }
+}
+@media only screen and (max-width: 1080px){
+	.sub_stoks_wraper .table_graph img{
+		width: 80%;
+	}
+
+	.content_sort_by{
+		max-width: 100%;
+	}
+	.content_sort_by li{
+		background-color: #4cabd7;
+		border-bottom: 2px solid #e5eaee;
+	    padding-right: 47px;			
+	}
+	.content_sort_by a,
+	.content_sort_by a:hover,
+	.content_sort_by a.active{
+		color:#fff;
+		font-size: 44px;
+	}
+	.content_sort_by a.active{
+		background-image: url(../images/selected_mobile.png);
+	}
+	.content_sort_by a{
+		line-height: 123px;
+	}
+}
+
+@media only screen and (max-width: 920px){
+	.content_sort_by{
+	    top: 71px;
+	}
+	.dropdown_sort_by span{
+	    width: 26px;
+	}
+	.content_sort_by a, .content_sort_by a:hover, .content_sort_by a.active{
+	    line-height: 103px;
+	    font-size: 34px;
+        background-size: 6%;
+	}
+	.sort_by_date a.active {
+	    border-width: 4px;
+	}
+	.sort_by_date a{
+		font-size: 34px;
+	    padding-left: 19px;
+    	padding-right: 19px;
+	}
+	.sort_by_date {
+	    margin-top: -10px;
+	}
+	.dropdown_sort_by{
+	    font-size: 28px;
+	    margin-bottom: 16px;
+	}
+	.dropdown_sort_by a{
+	    padding-right: 32px;
+    	background-size: 20%;
+	}
+}
+@media only screen and (max-width: 768px){
+	header .balance, header .portfolioWorth {
+	    margin-top: 38px;
+	}
+	header .photo {
+	    margin-left: 0;
+	}
+
+}
+@media only screen and (max-width: 600px){
+
+	.content_sort_by {
+	    top: 65px;
+	}
+	.dropdown_sort_by span {
+	    width: 22px;
+	    margin-left: 8px;
+	}
+	.content_sort_by li{
+		border-bottom-width: 1px;
+	}
+	.content_sort_by a, .content_sort_by a:hover, .content_sort_by a.active {
+	    line-height: 63px;
+	    font-size: 24px;
+	}
+
+	.sort_by_date a {
+	    font-size: 30px;
+	    padding-left: 9px;
+	    padding-right: 9px;
+	}
+	.sort_by_date a.active {
+	    border-width: 3px;
+	}
+	.dropdown_sort_by {
+	    font-size: 24px;
+	}
+	.dropdown_sort_by a {
+	    padding-right: 26px;
+	    background-size: 19%;
+	}
+}
+@media only screen and (max-width: 530px){
+	header .balance, header .portfolioWorth {
+	    margin-top: 30px;
+	}
+	header .balance h2, header .balance p {
+	    padding-right: 22px;
+	}
+	.content_sort_by {
+	    top: 60px;
+	}
+	.dropdown_sort_by span {
+	    width: 20px;
+	}
+	.content_sort_by li{
+		padding-right: 27px;
+	}
+	.content_sort_by a, .content_sort_by a:hover, .content_sort_by a.active {
+	    line-height: 55px;
+	    font-size: 22px;
+        background-size: 7%;
+	}
+	.sort_by_date {
+	    margin-top: -4px;
+	}
+	.sort_by_date a {
+	    font-size: 28px;
+	    padding-left: 8px;
+	    padding-right: 8px;
+	}
+}
+@media only screen and (max-width: 400px){
+	header .photo {
+	    width: 70px;
+	}
+	.dropdown_sort_by span {
+	    width: 18px;
+	    margin-left: 6px;
+	}
+	.sort_by_date a {
+	    font-size: 24px;
+	    padding-left: 7px;
+	    padding-right: 7px;
+	}
+	.sort_by_date {
+	    margin-top: -5px;
+	}
+	.dropdown_sort_by {
+	    font-size: 22px;
+	}
+}
+@media only screen and (max-width: 350px){
+	header .photo {
+	    width: 62px;
+	}
+	.content_sort_by a, .content_sort_by a:hover, .content_sort_by a.active {
+	    line-height: 45px;
+	    font-size: 18px;
+	}
+	.dropdown_sort_by {
+	    font-size: 18px;
+	}
+	.sort_by_date a {
+	    font-size: 18px;
+	}
+	.sort_by_date {
+	    margin-top: -6px;
+	}
+}
